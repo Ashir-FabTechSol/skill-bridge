@@ -1,0 +1,291 @@
+.fs_17{
+    font-size: 17px;
+}
+.fs_12{
+    font-size: 12px;
+}
+.fs_16{
+    font-size: 16px;
+}
+.fs_14{
+    font-size: 14px;
+}
+.btn_AddToCart{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.btn_AddToCart:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.btn_black{
+    background-color: black;
+    border-style: none;
+    color: white;
+    border-radius: 7px;
+}
+.bottom_tooltip_box{
+    background-color: #c983ff;
+    border: 1px solid #c983ff;
+}
+.bottom_tooltip_box:hover{
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+.bottom_tooltip_box1{
+    background-color: #efa58a;
+    border: 1px solid #efa58a;
+}
+.bottom_tooltip_box1:hover{
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+.bottom_tooltip_box2{
+    background-color: #f7dc82;
+    border: 1px solid #f7dc82;
+}
+.bottom_tooltip_box2:hover{
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+.position-abs2{
+    position: absolute;
+    right: 0;
+    top: -69px;
+    right: -41%;
+}
+.img-fluid2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.font-18{
+    font-size: 18px;
+}
+/* ----popular courses-------- */
+/* Custom styling for the slider */
+.slick-slider {
+    position: relative;
+  }
+  
+  
+  .slick-next {
+    position: absolute;
+    /* top: 500px; */
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 40px; /* Adjust the arrow width as needed */
+    height: 40px; /* Adjust the arrow height as needed */
+    border: 1px solid black;
+    text-align: center;
+    font-size: 24px; /* Adjust the font size of the arrows */
+    line-height: 40px; /* Adjust the line height of the arrows */
+    cursor: pointer;
+    border-radius: 20%;
+    opacity: 0.7;
+    right: 0;
+  }
+  .slick-prev{
+    position: absolute;
+    /* top: 500px;  */
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 40px; /* Adjust the arrow width as needed */
+    height: 40px; /* Adjust the arrow height as needed */
+    border: 1px solid black;
+    text-align: center;
+    font-size: 24px; /* Adjust the font size of the arrows */
+    line-height: 40px; /* Adjust the line height of the arrows */
+    cursor: pointer;
+    border-radius: 20%;
+    opacity: 0.7;
+    background-color: none !important;
+    right: 0;
+    left: auto !important;
+  }
+  
+  .slick-next:before {
+    content: "\2039"; /* Hide the arrow text content */
+    color: black;
+    font-size: 30px;
+    margin-left: 12px !important;
+  }
+  .slick-prev:before{
+    content: "\2039"; /* Hide the arrow text content */
+    color: black;
+    font-size: 30px;
+    margin-left: 12px !important;
+  }
+  .slick-prev {
+      background-color: transparent !important;
+  }
+  .slick-prev:hover,
+  .slick-next:hover {
+    opacity: 1;
+  }
+ 
+  .price_tooltip {
+    position: relative;
+  }
+  
+  .tooltip {
+    position: absolute;
+    bottom: 112%;
+    left: 50%;
+    width: 120%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5%;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .border1{
+      border: 8px solid #c983ff;
+  }
+  .border2{
+      border: 8px solid #efa58a;
+  }
+  .border3{
+      border: 8px solid #f7dc82;
+  }
+  
+  .border1::before{
+      /* border: 8px solid #c983ff; */
+      border-color: #c983ff transparent transparent transparent;
+  }
+  .border2::before{
+      /* border: 8px solid #efa58a; */
+      border-color: #efa58a transparent transparent transparent;
+  }
+  .border3::before{
+      /* border: 8px solid #f7dc82; */
+      border-color: #f7dc82 transparent transparent transparent;
+  }
+  
+  .tooltip::before {
+    content: '';
+    position: absolute;
+    bottom: -28px;
+    right: 40px;
+    border-width: 10px;
+    border-style: solid;
+    /* border-color: #c983ff transparent transparent transparent; */
+    transform: rotate(0deg);
+  }
+  .price_tooltip:hover .tooltip {
+    opacity: 1;
+  }
+  @media screen and (max-width: 1200px){
+    .tooltip{
+      width: 100%;
+    }
+    /* .slick-next{
+      top: 614px;
+    }
+    .slick-prev{
+      top: 614px;
+    } */
+  }
+  @media screen and (max-width: 992px){
+    .tooltip{
+      bottom: 80%;
+    }
+   
+  }
+  /* @media screen and (max-width: 768px){
+    .slick-prev{
+          top: 664px;
+    }
+    .slick-next{
+      top: 664px;
+    }
+  } */
+  @media screen and (max-width: 577px){
+    .font-18{
+      font-size: 14px;
+    }
+    .tooltip{
+      bottom: 75%;
+    }
+    /* .slick-prev{
+          top: 564px;
+    }
+    .slick-next{
+      top: 564px;
+    } */
+  }
+  @media screen and (max-width: 480px){
+    .tooltip{
+      bottom: 65%;
+    }
+  }
+
+      .info-button {
+      background-color: #000;
+      border-radius: 50%;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      height: 25px;
+      margin-left: 5px;
+      width: 25px;
+      position: relative;
+  }
+  .info-button:hover .info-tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+  .info-tooltip {
+      background-color: #fff;
+      border-radius: 20px;
+      color: #828282;
+      font-size: 14px;
+      left: 30px;
+      opacity: 0;
+      padding: 10px;
+      top: 100px;
+      position: absolute;
+      transform: translateY(-50%);
+      transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+      visibility: hidden;
+      width: 300px;
+      z-index: 1;
+      border: 1px solid #828282;
+      text-align: justify;
+  }
+  @media only screen and (max-width: 1200px){
+      .info-tooltip {
+          width: 240px;
+          top:75px;
+      }
+  }
+  @media only screen and (max-width: 991px){
+      .info-tooltip {
+          width: 130px;
+          font-size: 12px !important;
+          line-height: 1.2;
+      }
+  }
+  @media only screen and (max-width: 768px){
+  .info-tooltip {
+      top: 100px;
+      left: -60px;
+  }
+      .info-button {
+          height: 20px;
+          width: 20px;
+  }
+}
+  @media screen and (max-width: 340px){
+    .position-abs2 {
+        position: absolute;
+        right: 0;
+        top: -80px;
+        right: -34%;
+    }
+  }
