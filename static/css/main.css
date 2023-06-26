@@ -1,0 +1,1403 @@
+/* -------------------------
+         Font Kit
+--------------------------- */
+@font-face {
+    font-family: 'rubik';
+    src: url('../fonts/rubik-bold-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubik';
+    src: url('../fonts/rubik-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubik';
+    src: url('../fonts/rubik-light-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubik';
+    src: url('../fonts/rubik-medium-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubik';
+    src: url('../fonts/rubik-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/rubik-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+/* -------------------------
+          BASE 
+--------------------------- */
+:root{
+   --main-bg:#FFFDF5;
+   --orng:#FD8043;
+   --yellow:#FFDC83;
+}
+
+body {
+    font-family: 'rubik' !important;
+    background-color: #FFF9F0 !important;
+}
+
+.mycontainer {
+    max-width: 1250px;
+    padding: 0 26px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.main-bg {
+    background: var(--main-bg);
+}
+
+.f0{
+    font-size: 70px;
+}
+
+.f1 {
+    /* for 93 */
+    font-size: 53px;
+}
+
+.f2 {
+    /* for 50 */
+    font-size: 36px;
+}
+
+.f3 {
+    /* for 39 */
+    font-size: 25px;
+}
+
+.f4 {
+    /* for 24 */
+    font-size: 20px;
+}
+
+.f5 {
+    /* for 20 */
+    font-size: 18px;
+}
+
+.f6 {
+    /* for 16 */
+    font-size: 16px;
+}
+.f7 {
+    /* for 14 */
+    font-size: 14px;
+}
+
+a {
+    font-size: 14px;
+}
+
+a:hover {
+    color: #000;
+}
+
+.fw-md {
+    font-weight: 500;
+}
+
+.fw-semi {
+    font-weight: 600;
+}
+
+.text-orng {
+    color: var(--orng);
+}
+
+.border-orng {
+    border: 2px solid var(--orng);
+}
+
+.bg-orng {
+    background: var(--orng);
+}
+.yellow-bg {
+    background: var(--yellow);
+}
+
+.btn-yellow {
+    background: var(--yellow);
+    padding: 10px 30px;
+    border: 2px solid var(--yellow);
+    font-size: 18px;
+    font-weight: medium;
+    border-radius: 14px;
+    text-transform: capitalize;
+    color: #000;
+    transition: all 0.3s;
+}
+
+.btn-yellow:hover {
+    background: transparent;
+}
+
+.myhover {
+    transition: all 0.3s;
+}
+
+.myhover:hover {
+    opacity: 0.9;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.myshadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* ----------------------------
+    start-section 
+---------------------------- */
+header .nav-link {
+    font-size: 18px;
+}
+header .mycontainer {
+    max-width: 1400px;
+}
+.signin-btn {
+    border: 2px solid #E1EEE8;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: medium;
+    border-radius: 8px;
+    color: #000;
+    border-radius: 14px;
+    transition: all 0.3s;
+}
+
+.signin-btn:hover {
+    background: #F5F5F5;
+}
+
+.hero-txt:before {
+    position: absolute;
+    content: '';
+    background: url("../img/hero-bg.png") no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position:right;
+    height: 90%;
+    z-index: -1;
+}
+
+.dotted {
+    max-width: 90px;
+}
+
+.learning:before {
+    position: absolute;
+    content: '';
+    background: var(--orng);
+    width: 64%;
+    height: 26%;
+    left: -4px;
+    bottom:4px;
+    z-index: -1
+}
+
+.search-bg {
+    background: #FFA68B;
+    padding: 8px 10px 6px;
+}
+
+.rec:before {
+    position: absolute;
+    content: '';
+   right: 0px;
+    top: 50%;
+    transform: translatey(-50%);
+    color: #000;
+    height:50%;
+    width: 1px;
+    background: #707070
+}
+
+
+.hero input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* -------------------------------
+        categories
+------------------------------- */
+.catg-sec {
+    background: #FFF9F0;
+}
+.catg-bg {
+    background: #FFF9F0;
+}
+.feedback-sec .mycontainer {
+    max-width: 1100px;
+}
+
+/* ------catg-animation-start----- */
+
+.catgdot {
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    background: #FFA68B;
+}
+.catgdot-1 {
+color: #ffa68b;
+    font-size: 18px;
+    position: absolute;
+    right: 5%;
+    top: 12%;
+    transition: top .3s ease;
+     width: 16px;
+    height: 16px;
+}
+.catgdot-2 {
+    background: #FFA68B;
+    position: absolute;
+    right: 5%;
+    top: 12%;
+    transition: top .3s ease;
+    visibility: hidden;
+     width: 13px;
+    height: 13px;
+}
+.catgdot-3 {
+   color: #ffa68b;
+    font-size: 10px;
+    position: absolute;
+    right: 5%;
+    top: 14%;
+    transition: top .3s ease,opacity .3s ease;
+visibility: hidden; 
+      width: 10px;
+    height: 10px;
+}
+.catgdot-4{
+color: #ffa68b;
+    font-size: 8px;
+    position: absolute;
+    right: 5%;
+    top: 14%;
+    transition: top .3s ease-in-out,opacity .3s ease-in-out;
+    visibility: hidden;
+     width: 9px;
+    height: 9px;
+}
+
+.catg-box:hover .catgdot-2 {
+    top: 27%;
+    transition-delay: .1s;
+    visibility: visible;
+    right: 5%;
+}
+
+.catg-box:hover .catgdot-3 {
+    top: 40%;
+    transition-delay: .2s;
+    visibility: visible;    
+    right: 4.9%;
+}
+
+.catg-box:hover .catgdot-4 {
+    top: 50%;
+    transition-delay: .3s;
+    visibility: visible;    
+    right: 4.7%;
+}
+
+/* ------catg-animation-end----- */
+
+.catg-box:hover .catg-sec {
+    background: var(--yellow);
+}
+
+.cat-box-col:hover {
+    background-image: url("../img/bg2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100 100;
+}
+
+/* --------slider-arrows----- */
+.view .priv_arrow,
+.view .next_arrow {
+    position: absolute;
+     color: black;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px 17px 12px 17px;
+    top: 50%;
+    transform: translatey(-50%);
+    z-index: 99;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.view .priv_arrow:hover,
+.view .next_arrow:hover {
+    color: #fff;
+    background: #000
+}
+
+.view .priv_arrow {
+    left: 0
+}
+
+.view .next_arrow {
+    right: 0
+}
+.view .priv_arrow i,
+.view .next_arrow i {
+    top: 50%;
+    display: block;
+        font-size: 18px
+}
+/* -----------dots------ */
+
+
+.feedback-sec .slick-dots li {
+    width: 23px !important;
+}
+.feedback-sec .slick-dots li button {
+    width: 50px;
+}
+
+.feedback-sec .slick-dots li button:before {
+    background:#707070 !important;
+    border-radius: 4px !important;
+    width: 100%;
+    height: 5px;
+    content: '';
+    font-size: 0 !important;
+        opacity: 1 !important
+}
+
+.feedback-sec .slick-dots li.slick-active button:before {
+        background: #FFA68B !important;
+}
+
+.feedback-sec .slick-dots {
+    bottom: -51px
+}
+
+/* ------footer----- */
+.skyblue-bg{
+    background-color: #F3F7F8;
+}
+
+.skyblue-bg a {
+color: #232124;
+}
+
+.skyblue-bg a:hover {
+    text-decoration: underline !important;
+}
+
+.skyblue-bg li {
+    margin: 10px 0;
+}
+
+/* ------------popular coures-slider arrow---- */
+
+.slider-um .next_arrow2,
+.slider-um .priv_arrow2 {
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    z-index: 20;
+    border: 2px solid #000;
+    padding: 4px 12px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.slider-um .next_arrow2 {
+    right: 34px;
+}
+.slider-um .priv_arrow2 {
+    right: 85px;
+}
+
+.slider-um .priv_arrow2:hover,
+.slider-um .next_arrow2:hover {
+    color: #fff;
+    background: #000
+}
+
+/* -----------instructor animation------------ */
+/* ------catg-animation-start----- */
+
+.catgdotb {
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    background: var(--yellow);
+}
+.catgdotb-1 {
+color: #ffa68b;
+    font-size: 18px;
+    position: absolute;
+    right: 15%;
+    top: 18%;
+    transition: top .3s ease;
+     width: 48px;
+    height: 48px;
+}
+.catgdotb-2 {
+    background: var(--yellow);
+    position: absolute;
+    right: 15%;
+    top: 22%;
+   transition: top .3s ease, opacity .3s ease, right .3s ease;
+    visibility: hidden;
+     width: 36px;
+    height: 36px;
+}
+.catgdotb-3 {
+   color: #ffa68b;
+    font-size: 10px;
+    position: absolute;
+    right: 15%;
+    top: 24%;
+       transition: top .3s ease, opacity .3s ease, right .3s ease;
+visibility: hidden; 
+      width: 22px;
+    height: 22px;
+}
+.catgdotb-4{
+color: #ffa68b;
+    font-size: 8px;
+    position: absolute;
+    right: 12%;
+    top: 36%;
+    transition: top .3s ease, opacity .3s ease, right .3s ease;
+    visibility: hidden;
+     width: 16px;
+    height: 16px;
+}
+
+.instructor-main:hover .catgdotb-2 {
+    top:28%;
+    transition-delay: .1s;
+    visibility: visible;
+    right: 12%;
+}
+
+.instructor-main:hover .catgdotb-3 {
+    top: 39%;
+    transition-delay: .2s;
+    visibility: visible;    
+    right: 10.6%;
+}
+
+.instructor-main:hover .catgdotb-4 {
+    top: 47%;
+    transition-delay: .2s;
+    visibility: visible;    
+    right: 9.6%;
+}
+
+.skyblue-bg2 .catgdot-2,
+.skyblue-bg2 .catgdot-3,
+.skyblue-bg2 .catgdot-4, 
+.skyblue-bg2 .catgdot-1 
+{
+    left: 20px;
+    right: auto !important
+}
+
+
+/* ------------slider----- */
+.space-tech .priv_arrow4,
+.space-tech .next_arrow4 {
+    top: 50%;
+    position: absolute;
+    transform: translatey(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 99;
+    
+}
+
+.space-tech .priv_arrow4 {
+    left: 5%
+}
+
+.space-tech .next_arrow4 {
+    right: 5%
+}
+/* ------slider-anm-2--- */
+.catgdotc {
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    border: 2px solid #FFA68B;
+}
+
+.catgdotc-2 {
+    position: absolute;
+    right: 5%;
+    top: 30px;
+    transition: top .3s ease;
+    visibility: hidden;
+     width: 130px;
+    height: 130px;
+}
+.catgdotc-3 {
+   color: #ffa68b;
+    font-size: 10px;
+    position: absolute;
+    right: 3%;
+    top: 60px;
+    transition: top .3s ease,opacity .3s ease;
+visibility: hidden; 
+      width: 68px;
+    height: 68px;
+}
+.catgdotc-4 {
+   color: #ffa68b;
+    font-size: 10px;
+    position: absolute;
+    right: 3%;
+    top: 170px;
+    transition: top .3s ease,opacity .3s ease;
+visibility: hidden; 
+      width: 30px;
+    height: 30px;
+}
+
+.digital:hover .catgdotc-2 {
+    top: 30px;
+    transition-delay: .1s;
+    visibility: visible;
+    right: 2%;
+}
+
+.digital:hover .catgdotc-3 {
+    top: 170px;
+    transition-delay: .2s;
+    visibility: visible;    
+    right: 1.1%;
+}
+
+.digital:hover .catgdotc-4 {
+    top: 260px;
+    transition-delay: .3s;
+    visibility: visible;    
+    right: 2.2%;
+}
+
+
+/* --------------------
+    sidebar 
+-------------------- */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    background-color: #f0f0f0;
+    transition: left 0.3s ease;
+    z-index: 1;
+  }
+
+.show-sidebar {
+left: 0;
+}
+
+.content {
+transition: margin-left 0.3s ease, opacity 0.3s ease;
+margin-left: 0;
+opacity: 1;
+}
+
+.show-sidebar.content:before {
+position: absolute;
+content: '';
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.4);
+z-index: 1
+}
+
+.show-sidebar.content {
+    overflow: hidden;
+}
+/* ----------search ppopup------- */
+.search-filter {
+    border-bottom: 1px solid #d1d7dc;
+}
+
+.search-filter input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.search-popup {
+    display: none;
+    z-index: 3;
+}
+
+.search-popup.show-search {
+    display: block;
+}
+
+.content.show-search {
+    overflow: hidden;
+}
+
+/* -------------social---- */
+.social {
+    width: 60px
+}
+
+.play {
+    max-width: 30px;
+    height: auto;
+}
+/* ------catg-animation-end----- */
+
+
+/********************** Login Page CSS Strat**********************/
+.ff-rubik{
+    font-family: 'rubik' !important;
+}
+.loginbg {
+   background-color: #FFF9F0;
+}
+
+.form_container {
+    max-width: 1000px;
+    margin: 20px auto 20px auto;
+}
+
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    border: .5px solid #B8B8B8;
+}
+
+.login_form{
+    margin:auto;
+    width: 35%;
+}
+
+.login_icon {
+    padding: 10px;
+    background: #F6F6F6;
+    color: #FFA68B;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    background-color: #F6F6F6;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid #AFB7BE;
+}
+
+
+.form-check-input:checked {
+    background-color: #FA7F71;
+    border-color: #FA7F71;
+}
+
+
+/* Set a style for the submit button */
+
+.login_btn {
+    background-color: #FFDC83;
+    color: #000000;
+    padding: 10px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.loginsocial_btn{
+    background-color: #F6F6F6;
+    color: #000000;
+    padding: 10px 0px;
+    border: .5px solid #B8B8B8;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginsocial_btnlogo1{
+    width: 10%;
+}
+.loginsocial_btnlogo2{
+    width: 7%;
+}
+
+.login_btn:hover {
+    opacity: .5;
+}
+
+.nav_icon{
+    background-color: #DFEAEC;
+    padding: 12px 15px;
+    border-radius: 50%;
+}
+
+.red-pos {
+    position: absolute;
+    background-color: red;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border: none;
+    top: 43px;
+    right: 408px;
+}
+
+
+/********************** Login Page CSS End**********************/
+/********************** Couses Page CSS Start**********************/
+.secondsection_img{
+    width: 100%;
+}
+.secondsection_hearticon{
+    padding: 2px 10px;
+    border: 1px solid #292929;
+}
+.secondsection_btn1{
+    padding: 6px 35px;
+    border: none;
+    background-color: #C983FF;
+    color: #ffff;
+}
+.secondsection_btn2{
+    padding: 6px 40px;
+    border: 1px solid #292929;
+    background-color: transparent;
+    color: #292929;
+}
+.contentsectionbox{
+    width: 70%;
+}
+.contentsectionbox_btn {
+    background: var(--yellow);
+    padding: 10px 15px;
+    border: 2px solid var(--yellow);
+    font-size: 12px;
+    font-weight: medium;
+    border-radius: 14px;
+    text-transform: capitalize;
+    color: #000;
+    transition: all 0.3s;
+}
+
+.contentsectionbox_btn:hover {
+    background: transparent;
+}
+
+.recomendation-container {
+    max-height: 350px;
+    /* Set the maximum height of the container */
+    overflow-y: scroll;
+    /* Enable vertical scrolling */
+    scrollbar-width: thin;
+    /* Set the width of the scrollbar */
+    scrollbar-color: #888888 #DEDEDE;
+    /* Set the color of the scrollbar */
+} 
+/* Customize the scrollbar */
+.recomendation-container::-webkit-scrollbar {
+width: 15px;
+}
+
+.recomendation-container::-webkit-scrollbar-track {
+background-color: #DEDEDE;
+border-radius: 15px;
+}
+
+.recomendation-container::-webkit-scrollbar-thumb {
+background-color: #888888;
+border: solid 2px #DEDEDE;
+border-radius: 15px;
+}
+
+.recomended-courseicondiv{
+padding: 1px 5px;
+border: .5px solid #707070; 
+border-radius: 50%;
+}
+.recomended-courseimg{
+width: 100%;
+}
+.recomended-coursebtn{
+background: var(--yellow);
+padding: 6px 20px;
+border: 2px solid var(--yellow);
+font-size: 16px;
+font-weight: medium;
+border-radius: 10px;
+text-transform: capitalize;
+color: #000;
+transition: all 0.3s;
+}
+.recomended-coursebtn:hover {
+    background: transparent;
+ }
+.plus_btn{
+    position: absolute;
+    left: 50%; 
+    top: 90%; 
+    z-index: 1;
+ }
+.addtocart_btn{
+    background-color: #C983FF;
+    padding: 4px 20px;
+    border: 2px solid #C983FF;
+    font-size: 16px;
+    font-weight: medium;
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: #ffff;
+    transition: all 0.3s;
+ }
+.addtocart_btn:hover {
+    background: transparent;
+    color: #000;
+ }
+.Instructor_img{
+    width: 100%;
+ }
+.rating_boxheaderimg{
+    width: 100%;
+ }
+#more {
+    display: none;
+ }
+#more2 {
+    display: none;
+ }
+.accordion-button:focus {
+    box-shadow: none;
+ }
+
+
+/********************** Couses Page CSS End**********************/
+
+
+
+/* ========================================
+|              Media Queries              |
+==========================================*/
+
+
+/* For Desktop View */
+
+@media (max-width: 1200px) and (min-width: 780px) {
+    .secondsection_img {
+        width: 100%;
+        height: 80vh;
+    }
+    
+   
+}
+
+/* For Tablet View */
+
+@media (max-width: 779px) and (min-width: 590px) {
+    .login_form {
+        width: 50%;
+    }
+    .secondsection_img {
+        width: 100%;
+        height: 85vh;
+    }
+    .totalstudentsdiv{
+        width: 85%;
+    }
+    .contentsectionbox{
+        width: 80%;
+    }
+   
+    
+   
+}
+
+/* For Mobile Portrait View */
+
+@media (max-width: 589px) and (min-width: 315px) {
+    .login_form {
+        width: 100%;
+    }
+    .contentsectionbox{
+        width: 100%;
+    }
+    .contentsectioncontent{
+        width: 48%;
+    }
+    .f7 {
+        /* for 11 */
+        font-size: 9px;
+    }
+    .recomended-courseimg{
+        width: 50%;
+      }
+    .plus_btn{
+        top: 96%; 
+    }
+    .Instructor_img{
+        width: 50%;
+    }
+    .rating_boxheaderimg{
+        width: 50%;
+    }
+    
+    
+   
+}
+
+@media screen and (max-width:1200px){
+    .f0{
+        font-size: 55px;
+    }
+    .f1 {
+        font-size: 45px;
+    }
+    /* ------catg-animation-start----- */
+
+.catgdotb {
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    background: var(--yellow);
+}
+.catgdotb-1 {
+color: #ffa68b;
+    font-size: 18px;
+    position: absolute;
+    right: 10%;
+    top: 18%;
+    transition: top .3s ease;
+     width: 48px;
+    height: 48px;
+}
+.catgdotb-2 {
+    background: var(--yellow);
+    position: absolute;
+    right: 10%;
+    top: 22%;
+   transition: top .3s ease, opacity .3s ease, right .3s ease;
+    visibility: hidden;
+     width: 36px;
+    height: 36px;
+}
+.catgdotb-3 {
+   color: #ffa68b;
+    font-size: 10px;
+    position: absolute;
+    right: 10%;
+    top: 24%;
+       transition: top .3s ease, opacity .3s ease, right .3s ease;
+visibility: hidden; 
+      width: 22px;
+    height: 22px;
+}
+.catgdotb-4{
+color: #ffa68b;
+    font-size: 8px;
+    position: absolute;
+    right: 7%;
+    top: 36%;
+    transition: top .3s ease, opacity .3s ease, right .3s ease;
+    visibility: hidden;
+     width: 16px;
+    height: 16px;
+}
+
+.instructor-main:hover .catgdotb-2 {
+    top:30%;
+    transition-delay: .1s;
+    visibility: visible;
+    right: 7%;
+}
+
+.instructor-main:hover .catgdotb-3 {
+    top: 41%;
+    transition-delay: .2s;
+    visibility: visible;    
+    right: 5.6%;
+}
+
+.instructor-main:hover .catgdotb-4 {
+    top: 49%;
+    transition-delay: .2s;
+    visibility: visible;    
+    right: 4.6%;
+}
+
+}
+
+@media screen and (max-width:998px){
+    .red-pos {
+        top: 34px;
+        right: 7px;
+    }
+.f0 {
+    font-size: 45px;
+    }
+.f1 {
+    font-size: 40px;
+}
+.f2 {
+    font-size: 30px;
+}
+.f3 {
+    font-size: 22px;
+}
+.f4 {
+    font-size: 18px;
+}
+/* ------catg-animation-start----- */
+
+.catgdotb {
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    background: var(--yellow);
+}
+.catgdotb-1 {
+color: #ffa68b;
+    font-size: 18px;
+    position: absolute;
+    right: 10%;
+    top: 18%;
+    transition: top .3s ease;
+     width: 40px;
+    height: 40px;
+}
+.catgdotb-2 {
+    background: var(--yellow);
+    position: absolute;
+    right: 10%;
+    top: 22%;
+   transition: top .3s ease, opacity .3s ease, right .3s ease;
+    visibility: hidden;
+     width: 30px;
+    height: 30px;
+}
+.catgdotb-3 {
+   color: #ffa68b;
+    font-size: 10px;
+    position: absolute;
+    right: 10%;
+    top: 24%;
+       transition: top .3s ease, opacity .3s ease, right .3s ease;
+visibility: hidden; 
+      width: 20px;
+    height: 20px;
+}
+.catgdotb-4{
+color: #ffa68b;
+    font-size: 8px;
+    position: absolute;
+    right: 7%;
+    top: 36%;
+    transition: top .3s ease, opacity .3s ease, right .3s ease;
+    visibility: hidden;
+     width: 12px;
+    height: 12px;
+}
+
+.instructor-main:hover .catgdotb-2 {
+    top:30%;
+    transition-delay: .1s;
+    visibility: visible;
+    right: 7%;
+}
+
+.instructor-main:hover .catgdotb-3 {
+    top: 41%;
+    transition-delay: .2s;
+    visibility: visible;    
+    right: 5.6%;
+}
+
+.instructor-main:hover .catgdotb-4 {
+    top: 49%;
+    transition-delay: .2s;
+    visibility: visible;    
+    right: 4.6%;
+}
+
+.navbar .container-fluid {
+    height: 80px
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%)
+}
+/* ------catg-animation-end----- */
+}
+@media screen and (max-width: 820px){
+.f1 {
+    font-size: 36px;
+}
+}
+@media screen and (max-width: 768px){
+    .f0 {
+        font-size: 40px;
+        }
+.f3 {
+    font-size: 20px;
+}
+/* ------catg-animation-start----- */
+
+.catgdotb {
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    background: var(--yellow);
+}
+.catgdotb-1 {
+color: #ffa68b;
+    font-size: 18px;
+    position: absolute;
+    right: 10%;
+    top: 12%;
+    transition: top .3s ease;
+     width: 35px;
+    height: 35px;
+}
+.catgdotb-2 {
+    background: var(--yellow);
+    position: absolute;
+    right: 10%;
+    top: 16%;
+   transition: top .3s ease, opacity .3s ease, right .3s ease;
+    visibility: hidden;
+     width: 25px;
+    height: 25px;
+}
+.catgdotb-3 {
+   color: #ffa68b;
+    font-size: 10px;
+    position: absolute;
+    right: 10%;
+    top: 16%;
+       transition: top .3s ease, opacity .3s ease, right .3s ease;
+visibility: hidden; 
+      width:15px;
+    height:15px;
+}
+.catgdotb-4{
+color: #ffa68b;
+    font-size: 8px;
+    position: absolute;
+    right: 7.7%;
+    top: 30%;
+    transition: top .3s ease, opacity .3s ease, right .3s ease;
+    visibility: hidden;
+     width: 7px;
+    height: 7px;
+}
+
+.instructor-main:hover .catgdotb-2 {
+    top:28%;
+    transition-delay: .1s;
+    visibility: visible;
+    right: 7%;
+}
+
+.instructor-main:hover .catgdotb-3 {
+    top: 41%;
+    transition-delay: .2s;
+    visibility: visible;    
+    right: 5.6%;
+}
+
+.instructor-main:hover .catgdotb-4 {
+    top: 49%;
+    transition-delay: .2s;
+    visibility: visible;    
+    right: 4.6%;
+}
+
+.social {
+    width: 52px;
+}
+
+.view .priv_arrow, .view .next_arrow {
+    padding: 6px 10px 6px 10px;
+}
+/* ------catg-animation-end----- */
+}
+@media screen and (max-width: 576px){
+.red-pos {
+    top: 30px;
+    right: 5px;
+}
+.rec:before {
+    display: none;
+}
+.instructor-main:hover .catgdotb-2 {
+    top:24%;
+}
+
+.instructor-main:hover .catgdotb-3 {
+    top: 35%;
+}
+
+.instructor-main:hover .catgdotb-4 {
+    top: 43%;
+}
+
+.btn-yellow {
+    font-size: 16px;
+}
+.view .next_arrow {
+    right: 1%;
+}
+.view .priv_arrow {
+    left: 1%
+}
+.view .priv_arrow, .view .next_arrow {
+    padding: 4px 6px 4px 6px;
+}
+
+}
+@media screen and (max-width: 450px){
+.red-pos {
+    top: 30px;
+    right: 5px;
+}
+.f0 {
+    font-size: 35px;
+    }
+
+.dotted {
+    max-width: 59px;
+}
+.f4 {
+    font-size: 18px;
+}
+
+.f1 {
+    font-size: 32px;
+}
+.f2 {
+    font-size: 25px;
+}
+.f5 {
+    font-size: 16px;
+}
+.social {
+    width: 48px;
+}
+
+.position-circle p {
+    font-size: 14px;
+}
+
+.navbar-brand {
+    max-width: 80px;
+}
+.navbar .container-fluid {
+    height: 70px
+}
+}
+@media screen and (max-width: 380px){
+.red-pos {
+    top: 32px;
+    right: 3px;
+}
+.f0 {
+    font-size: 30px;
+    }
+.social {
+    width: 40px;
+}
+.btn-yellow,
+.signin-btn {
+    padding: 10px 20px;
+}
+.recommend .f5 {
+    font-size: 14px;
+}
+.recommend a {
+    padding-right: 8px !important;
+}
+
+header .pointer,
+header .pointer i    {
+    font-size: 18px !important;
+}
+
+.position-circle p {
+    font-size: 12px;
+}
+}
+@media screen and (max-width: 340px){
+.f0 {
+    font-size: 26px;
+    }
+.recommend .f5 {
+    font-size: 13px;
+}
+.search-bar input {
+    font-size: 14px;
+}
+.social {
+    width: 36px;
+}
+.position-abs2 {
+    position: absolute;
+    right: 0;
+    top: -80px;
+    right: -34%;
+}
+}
+
+
+@media screen and (min-width:998px){
+    .show-sidebar.content {
+        overflow: auto;
+    }
+    
+    .show-sidebar.content:before {
+        display: none;
+    }
+}
+.max{
+    max-width: fit-content;
+}
+.orng-bg{
+    background-color: #FFA68B;
+}
+
