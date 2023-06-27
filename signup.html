@@ -10,53 +10,65 @@
             integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
             crossorigin="anonymous"
         >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <!-- Font Awesome CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./static/css/main.css">
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!-- Font Awesome CDN -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-    >
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./static/css/main.css">
+   
     <body>
             <div class="container-fluid loginbg pb-0 pt-4 px-2">
                 <div class="form_container">
-                    <form method="post" action="" class="login_form">
-                        <h4 class="text-center ff-rubik fw-bold" style="color: #000000;">Sign Up</h4>
-                        <p class="text-center mb-4 ff-rubik fw-normal" style="color: #000000;">Sign up and start learning</p>
-                        <label class="mt-2 ff-rubik fs_normal fw-bold" for="login-fullname" style="color: #2A2A2A;">Full Name</label>
+                    
+
+
+
+
+                    <form method="post" action="" class="signup_form">
+
+                        <div class="row">
+                            <h3 class="text-center" style="color: #000000;">Sign Up</h3>
+                        <p class="text-center mb-2" style="color: #000000;">Sign up and start learning</p>
+                            <div class="col-md-6 mt-3">
+                                <label class="mt-2 fs_normal fw-semibold" for="signup-fullname" style="color: #2A2A2A;">Full Name</label>
                         
-                            <div class="input-container shadow" style="border-left: 8px solid #FFA68B;">
-                                <input
-                                    class="input-field border border-0 ff-rubik fw-light"
-                                    id="login-fullname"
-                                    type="text"
-                                    placeholder="Enter your full name"
-                                    name="fullname"
-                                >
-                                <i class="bi bi-person-fill fs-4 login_icon"></i>
-                            </div>
-                        
-                        <label class="mt-1 ff-rubik fs_normal fw-bold" for="login-mail" style="color: #2A2A2A;">Email</label>
-                        <div class="input-container shadow" style="border-left: 8px solid #FFA68B;">
+                                <div class="input-container" style="border-left: 8px solid #FFA68B;">
+                                    <input
+                                        class="input-field border border-0"
+                                        id="signup-fullname"
+                                        type="text"
+                                        placeholder="Enter your full name"
+                                        name="fullname"
+                                    >
+                                    <i class="bi bi-person-fill fs-4 login_icon"></i>
+                                </div>
+                                <label class="mt-1 fs_normal fw-bold" for="signup-mail" style="color: #2A2A2A;">Email</label>
+                                <div class="input-container" style="border-left: 8px solid #FFA68B;">
+                                    <input
+                                        class="input-field border border-0"
+                                        id="signup-mail"
+                                        type="email"
+                                        placeholder="Study@gmail.com"
+                                        name="email"
+                                    >
+                                    <i class="fa fa-envelope fs-5 login_icon"></i>
+                                </div>
+                                <label class="mt-1 fs_normal fw-bold" for="signup-pass" style="color: #2A2A2A;">Password</label>
+                        <div class="input-container" style="border-left: 8px solid #FFA68B;">
                             <input
-                                class="input-field border border-0 ff-rubik fw-light"
-                                id="login-mail"
-                                type="email"
-                                placeholder="Study@gmail.com"
-                                name="email"
-                            >
-                            <i class="fa fa-envelope fs-5 login_icon"></i>
-                        </div>
-                        <label class="mt-1 ff-rubik fs_normal fw-bold" for="login-pass" style="color: #2A2A2A;">Password</label>
-                        <div class="input-container shadow" style="border-left: 8px solid #FFA68B;">
-                            <input
-                                class="input-field border border-0 ff-rubik fw-light"
-                                id="login-pass"
+                                class="input-field border border-0"
+                                id="signup-pass"
                                 type="password"
                                 placeholder="Create password"
                                 name="password"
@@ -64,25 +76,74 @@
                             <i class="bi bi-eye-fill fs-4 login_icon" onclick="showpassword(this)"></i>
                            
                         </div>
+
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <label class="mt-2 fs_normal fw-semibold" for="signup-phonenumber" style="color: #2A2A2A;">Phone Number</label>
                         
-                        <div class="text-center mt-5">
-                            <a href="#" class="text-decoration-none"><button type="submit" class="login_btn ff-rubik fw-bold f4">Join for free</button></a>
-                            
+                                <div class="input-container" style="border-left: 8px solid #FFA68B;">
+                                    <input
+                                        class="input-field border border-0"
+                                        id="signup-phonenumber"
+                                        type="number"
+                                        placeholder="Phone Number"
+                                        name="phonenumber"
+                                    >
+                                    <i class="bi bi-person-fill fs-4 login_icon"></i>
+                                </div>
+                                <label class="mt-1 fs_normal fw-bold" for="signup-address" style="color: #2A2A2A;">Address</label>
+                                <div class="input-container" style="border-left: 8px solid #FFA68B;">
+                                    <input
+                                        class="input-field border border-0"
+                                        id="signup-address"
+                                        type="text"
+                                        placeholder="Address"
+                                        name="address"
+                                    >
+                                    <i class="fa fa-envelope fs-5 login_icon"></i>
+                                </div>
+                                <label class="mt-2 fs_normal fw-semibold" for="signup-education" style="color: #2A2A2A;">Education</label>
+                        
+                                <div class="input-container" style="border-left: 8px solid #FFA68B;">
+                                    <input
+                                        class="input-field border border-0"
+                                        id="signup-education"
+                                        type="text"
+                                        placeholder="0 year"
+                                        name="education"
+                                    >
+                                </div> 
+                            </div>
+
                         </div>
-                        <div class="text-center mt-4">
-                            <a href="#" class="text-decoration-none"><button type="submit" class="loginsocial_btn ff-rubik fw-bold f4"><img class="loginsocial_btnlogo1 me-1" src="./static/img/7611770.png" alt=""> Continue with Google</button></a>
+                        <div class="row">
                             
+                            <div class="col-md-6 mt-4">
+                                <div class="text-center">
+                                    <a href="#" class="text-decoration-none"><button type="submit" class="login_btn fw-semibold f4 rounded-2">Join for free</button></a>
+                                    
+                                </div>
+                                <div class="text-center mt-4">
+                                    <a href="#" class="text-decoration-none"><button type="submit" class="loginsocial_btn border border-0 fw-semibold f4"><img class="loginsocial_btnlogo1 me-1" src="./static/img/7611770.png" alt=""> Continue with Google</button></a>
+                                    
+                                </div>
+                                <div class="text-center mt-3">
+                                    <a href="#" class="text-decoration-none"><button type="submit" class="loginsocial_btn border border-0 fw-semibold f4"><img class="loginsocial_btnlogo2 me-2" src="./static/img/Path 12212.svg" alt=""> Continue with Facebook</button></a>
+                                    
+                                </div>
+                                <p class="mt-3">Already have an account? <a href="" style="text-decoration: none; color: #FFA68B;">Log In</a></p>
+
+                            </div>
+
                         </div>
-                        <div class="text-center mt-3">
-                            <a href="#" class="text-decoration-none"><button type="submit" class="loginsocial_btn ff-rubik fw-bold f4"><img class="loginsocial_btnlogo2 me-2" src="./static/img/Path 12212.svg" alt=""> Continue with Facebook</button></a>
-                            
-                        </div>
+                        
+                        
                     </form>
                 </div>
             </div>
         <script>
         function showpassword(icon) {
-            let inputField = document.getElementById("login-pass")
+            let inputField = document.getElementById("signup-pass")
             if (inputField.type === 'text') {
                 icon.classList.add('bi-eye-fill')
                 icon.classList.remove('bi-eye-slash-fill')
