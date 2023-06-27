@@ -1,8 +1,8 @@
 /* -------------------------
          Font Kit
 --------------------------- */
-@font-face {
-    font-family: 'rubik';
+/* @font-face {
+    font-family: 'Rubik';
     src: url('../fonts/rubik-bold-webfont.woff2') format('woff2'),
          url('../fonts/rubik-bold-webfont.woff') format('woff');
     font-weight: 700;
@@ -39,10 +39,11 @@
          url('../fonts/rubik-semibold-webfont.woff') format('woff');
     font-weight: 600;
     font-style: normal;
-}
+} */
 /* -------------------------
           BASE 
 --------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root{
    --main-bg:#FFFDF5;
    --orng:#FD8043;
@@ -50,7 +51,7 @@
 }
 
 body {
-    font-family: 'rubik' !important;
+    font-family: 'Rubik' !important;
     background-color: #FFF9F0 !important;
 }
 
@@ -679,9 +680,9 @@ z-index: 1
 /* ------catg-animation-end----- */
 
 
-/********************** Login Page CSS Strat**********************/
+/********************** Signup Page CSS Strat**********************/
 .ff-rubik{
-    font-family: 'rubik' !important;
+    font-family: 'Rubik' !important;
 }
 .loginbg {
    background-color: #FFF9F0;
@@ -700,9 +701,9 @@ z-index: 1
     border: .5px solid #B8B8B8;
 }
 
-.login_form{
+.signup_form{
     margin:auto;
-    width: 35%;
+    width: 80%;
 }
 
 .login_icon {
@@ -781,7 +782,13 @@ z-index: 1
 }
 
 
-/********************** Login Page CSS End**********************/
+/********************** Signup Page CSS End**********************/
+/********************** Sign In Page CSS Start**********************/
+.signin_form{
+    margin: auto;
+    width: 35%;
+}
+/********************** Sign In Page CSS End**********************/
 /********************** Couses Page CSS Start**********************/
 .secondsection_img{
     width: 100%;
@@ -930,7 +937,10 @@ transition: all 0.3s;
 /* For Tablet View */
 
 @media (max-width: 779px) and (min-width: 590px) {
-    .login_form {
+    .signup_form {
+        width: 90%;
+    }
+    .signin_form{
         width: 50%;
     }
     .secondsection_img {
@@ -951,8 +961,11 @@ transition: all 0.3s;
 /* For Mobile Portrait View */
 
 @media (max-width: 589px) and (min-width: 315px) {
-    .login_form {
-        width: 100%;
+    .signup_form {
+        width: 90%;
+    }
+    .signin_form{
+        width: 90%;
     }
     .contentsectionbox{
         width: 100%;
