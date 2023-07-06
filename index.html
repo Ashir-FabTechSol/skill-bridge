@@ -24,144 +24,143 @@
         <!-- ----------------------------
       Header 
 ---------------------------- -->
-        <header class="">
-            <div class="mycontainer">
-                <nav class="navbar pb-3 pb-lg-0 navbar-expand-lg ">
-                    <div class="container-fluid d-flex align-items-center px-0">
-                        <span class="toggler d-lg-none pointer myhover">
-                            <i class="fas fa-bars fs-3"></i>
-                        </span>
-                        <a class="navbar-brand me-0" href="home.html">
-                            <img src="./static/img/footer-logo.png" alt="logo" class="w-100">
+<header class="shadow-sm px-xl-5 px-lg-3 py-md-2">
+    <div class="mycontainer">
+        <nav class="navbar pt-0 pb-lg-0 navbar-expand-lg ">
+            <div class="container-fluid d-flex align-items-center px-0">
+                <span class="toggler d-lg-none pointer myhover">
+                    <i class="fas fa-bars fs-3"></i>
+                </span>
+                <a class="navbar-brand me-0" href="home.html">
+                    <img src="./static/img/footer-logo.png" alt="logo" class="w-75">
+                </a>
+                <div class="d-flex  d-lg-none">
+                    <span>
+                        <i class="fas fa-search fs-3 me-3 pointer myhover search-ic"></i>
+                        <i class="fas fa-cart-plus fs-3 me-3 pointer myhover"></i>
+                        <a
+                            href=""
+                            class="m-0"
+                            type="button"
+                            class="text-decoration-none text-black"
+                            data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop"
+                        >
+                            <i class="bi bi-bell-fill fs-3 pointer myhover text-black"></i>
                         </a>
-                        <div class="d-flex  d-lg-none">
-                            <span>
-                                <i class="fas fa-search fs-3 me-3 pointer myhover search-ic"></i>
-                                <i class="fas fa-cart-plus fs-3 me-3 pointer myhover"></i>
+                    </span>
+                </div>
+                <div class="collapse navbar-collapse d-none d-lg-flex justify-content-between">
+                    <ul class="navbar-nav justify-content-end ms-xl-5 ms-lg-3 ps-xl-5 ps-3 mt-3 mt-lg-0">
+                        <li class="nav-item small">
+                            <a class="nav-link fw-md text-black px-xl-4 px-lg-2 home" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item small">
+                            <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 courses" href="./courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item small">
+                            <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 about" href="./about-us.html">About</a>
+                        </li>
+                        <li class="nav-item small">
+                            <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 contact" href="./contact-us.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-wrap align-items-center my-3 my-md-0">
+                        <button class="bg-transparent px-2 py-1 me-2 border-0 ms-0 ms-lg-2 my-2 my-lg-0">
+                            <i class="fas fa-search fs-4"></i>
+                        </button>
+                        <div class="d-flex my-2 my-lg-0 align-items-center gap-2">
+                            <div class="d-block nav_icon">
                                 <a
                                     href=""
                                     class="m-0"
                                     type="button"
-                                    class="text-decoration-none text-black"
                                     data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop"
                                 >
-                                    <i class="bi bi-bell-fill fs-3 pointer myhover text-black"></i>
-                                    <div class="red-pos"></div>
+                                    <i class="bi bi-bell-fill fs-5" style="color: #636C79;"></i>
+                                    <div class="red-pos d-none d-lg-block"></div>
                                 </a>
-                            </span>
-                        </div>
-                        <div class="collapse navbar-collapse d-none d-lg-flex justify-content-end">
-                            <ul class="navbar-nav justify-content-end me-xl-5 me-lg-3 mt-3 mt-lg-0">
-                                <li class="nav-item small">
-                                    <a class="nav-link fw-md text-black px-xl-4 px-lg-2 home" href="./index.html">Home</a>
-                                </li>
-                                <li class="nav-item small">
-                                    <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 courses" href="./courses.html">Courses</a>
-                                </li>
-                                <li class="nav-item small">
-                                    <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 about" href="./about-us.html">About</a>
-                                </li>
-                                <li class="nav-item small">
-                                    <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 contact" href="./contact-us.html">Contact</a>
-                                </li>
-                            </ul>
-                            <div class="d-flex flex-wrap align-items-center my-3 my-md-0">
-                                <button class="bg-transparent px-2 py-1 me-2 border-0 ms-0 ms-lg-2 my-2 my-lg-0">
-                                    <i class="fas fa-search fs-4"></i>
-                                </button>
-                                <div class="d-flex my-2 my-lg-0 align-items-center gap-2">
-                                    <div class="d-block nav_icon">
-                                        <a
-                                            href=""
-                                            class="m-0"
-                                            type="button"
-                                            data-bs-toggle="modal"
-                                            data-bs-target="#staticBackdrop"
-                                        >
-                                            <i class="bi bi-bell-fill fs-5" style="color: #636C79;"></i>
-                                            <div class="red-pos"></div>
-                                        </a>
-                                    </div>
-                                    <div class="d-block nav_icon">
-                                        <a
-                                            href=""
-                                            class="m-0"
-                                            type="button"
-                                            data-bs-toggle="modal"
-                                            data-bs-target="#staticBackdrop"
-                                        >
-                                            <i class="bi bi-cart3 fs-5" style="color: #636C79;"></i>
-                                        </a>
-                                    </div>
-                                    <a href="./signup.html" class="d-block btn-yellow text-decoration-none">
-                                        Register
-                                    </a>
-                                    <a href="signin.html" class="d-block signin-btn text-decoration-none">
-                                        Sign in
-                                    </a>
-                                    <div class="d-block nav_icon">
-                                        <a
-                                            href=""
-                                            class="m-0"
-                                            type="button"
-                                            data-bs-toggle="modal"
-                                            data-bs-target="#staticBackdrop"
-                                        >
-                                            <i class="fa-sharp fa-solid fa-user fs-5" style="color: #636C79;"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                            </div>
+                            <div class="d-block nav_icon">
+                                <a
+                                    href=""
+                                    class="m-0"
+                                    type="button"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop"
+                                >
+                                    <i class="bi bi-cart3 fs-5" style="color: #636C79;"></i>
+                                </a>
+                            </div>
+                            <a href="./signup.html" class="d-block btn-yellow text-decoration-none">
+                                Register
+                            </a>
+                            <a href="signin.html" class="d-block signin-btn text-decoration-none">
+                                Sign in
+                            </a>
+                            <div class="d-block nav_icon">
+                                <a
+                                    href=""
+                                    class="m-0"
+                                    type="button"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop"
+                                >
+                                    <i class="fa-sharp fa-solid fa-user fs-5" style="color: #636C79;"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                </nav>
+                </div>
             </div>
-        </header>
-        <!-- ----------------------------
-        Sidebar
+        </nav>
+    </div>
+</header>
+<!-- ----------------------------
+Sidebar
 ---------------------------- -->
-        <div class="sidebar myshadow d-lg-none bg-white px-4 py-3">
-            <div class="d-flex justify-content-end myhover pointer fs-3 close mt-2">
-                <i class="fas fa-times fs-2"></i>
-            </div>
-            <ul class="navbar-nav mt-2 pb-2 border-bottom">
-                <li class="nav-item small">
-                    <a class="nav-link f4 fw-normal text-black px-lg-4 " href="./signup.html">Register</a>
-                </li>
-                <li class="nav-item small">
-                    <a class="nav-link f4 fw-normal text-black px-lg-4 " href="#">Sign in</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav flex-column mt-2">
-                <li class="nav-item small">
-                    <a class="nav-link f4 fw-md text-black px-lg-4 home" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item small">
-                    <a class="nav-link f4 fw-normal text-black px-lg-4 courses" href="./courses.html">Courses</a>
-                </li>
-                <li class="nav-item small">
-                    <a class="nav-link f4 fw-normal text-black px-lg-4 about" href="./about-us.html">About</a>
-                </li>
-                <li class="nav-item small">
-                    <a class="nav-link f4 fw-normal text-black px-lg-4 contact" href="./contact-us.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- ----------------------------
-        search filter
+<div class="sidebar myshadow d-lg-none bg-white px-4 py-3">
+    <div class="d-flex justify-content-end myhover pointer fs-3 close mt-2">
+        <i class="fas fa-times fs-2"></i>
+    </div>
+    <ul class="navbar-nav mt-2 pb-2 border-bottom">
+        <li class="nav-item small">
+            <a class="nav-link f4 fw-normal text-black px-lg-4 " href="./signup.html">Register</a>
+        </li>
+        <li class="nav-item small">
+            <a class="nav-link f4 fw-normal text-black px-lg-4 " href="#">Sign in</a>
+        </li>
+    </ul>
+    <ul class="navbar-nav flex-column mt-2">
+        <li class="nav-item small">
+            <a class="nav-link f4 fw-md text-black px-lg-4 home" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item small">
+            <a class="nav-link f4 fw-normal text-black px-lg-4 courses" href="./courses.html">Courses</a>
+        </li>
+        <li class="nav-item small">
+            <a class="nav-link f4 fw-normal text-black px-lg-4 about" href="./about-us.html">About</a>
+        </li>
+        <li class="nav-item small">
+            <a class="nav-link f4 fw-normal text-black px-lg-4 contact" href="./contact-us.html">Contact</a>
+        </li>
+    </ul>
+</div>
+<!-- ----------------------------
+search filter
 ---------------------------- -->
-        <section class="bg-white search-popup position-fixed vh-100 top-0 d-lg-none w-100">
-            <div class="d-flex justify-content-between px-3  align-items-center search-filter">
-                <span class="d-inline-block">
-                    <i class="fas fa-search text-secondary fs-5 mt-1"></i>
-                </span>
-                <input type="search" placeholder="Search for anything" class="w-100 border-0 py-3 text-secondary px-4">
-                <span class="close-search">
-                    <i class="fas fa-times fs-3 myhover pointer text-secondary mt-1"></i>
-                </span>
-            </div>
-        </section>
+<section class="bg-white search-popup position-fixed vh-100 top-0 d-lg-none w-100">
+    <div class="d-flex justify-content-between px-3  align-items-center search-filter">
+        <span class="d-inline-block">
+            <i class="fas fa-search text-secondary fs-5 mt-1"></i>
+        </span>
+        <input type="search" placeholder="Search for anything" class="w-100 border-0 py-3 text-secondary px-4">
+        <span class="close-search">
+            <i class="fas fa-times fs-3 myhover pointer text-secondary mt-1"></i>
+        </span>
+    </div>
+</section>
         <!-- ------------------------------
       hero section
     ------------------------------ -->
@@ -1002,14 +1001,14 @@
                         <div class="">
                             <p class="text-uppercase text-lg-start text-center fw-semibold">Our Applications</p>
                             <div class="d-flex align-items-center bg-black py-2 px-3 rounded-3 gap-2">
-                                <img src="./img/playstore.png" class="play" alt="">
+                                <img src="./static/img/playstore.png" class="play" alt="">
                                 <div>
                                     <p class="text-white mb-0">Get it on</p>
                                     <h5 class="text-white mb-0 fs-6">Google Play</h5>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center bg-black py-2 px-3 rounded-3 gap-2 mt-3">
-                                <img src="./img/Apple_Inc.-White-Logo.wine.png" class="play" alt="">
+                                <img src="./static/img/Apple_Inc.-White-Logo.wine.png" class="play" alt="">
                                 <div>
                                     <p class="text-white mb-0">Download on the</p>
                                     <h3 class="text-white mb-0 fs-6">App Store</h3>
@@ -1030,6 +1029,7 @@
         <!-- ------slick-js--- -->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        
         <script src="./static/js/main.js"></script>
         <script>
  $(document).ready(function() {
