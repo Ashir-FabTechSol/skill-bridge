@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .container {
     max-width: 1200px;
     width: 100%;
@@ -507,8 +506,20 @@
     padding: 20px 20px;
     width: 100%;
 }
+.tab-content {
+    display: none;
+    padding: 20px;
+  }
+  .list-s .w-hed{
+    background-color: #FFF3D9;
+}
 
-
+.list-s .w-hed-li {
+    background: transparent
+}
+.list-s .ui-state-active{
+    background-color: #FFA68B
+}
 @media screen and (max-width:768px) {
     .not-main {
         display: flex;
