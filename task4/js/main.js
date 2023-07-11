@@ -6,3 +6,7 @@
         $(".close").click(function () {
             $(".panel-left").hide();
         });
+        
+      $(document).ready(function() {
+      $("#tabs").tabs();
+      });
