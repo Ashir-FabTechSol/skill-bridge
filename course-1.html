@@ -1,0 +1,1694 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <!-- Bootstrap 5 CSS CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./static/css/main.css">
+        <link rel="stylesheet" href="./static/css/main4.css">
+        <link rel="stylesheet" href="./static/css/style.css">
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    </head>
+    <body class="main-bg position-relative content">
+        <!-- ----------------------------
+            Header 
+        ---------------------------- -->
+        <header class="shadow-sm px-xl-5 px-lg-3 py-md-2">
+            <div class="mycontainer">
+                <nav class="navbar pt-0 pb-lg-0 navbar-expand-lg ">
+                    <div class="container-fluid d-flex align-items-center px-0">
+                        <span class="toggler d-lg-none pointer myhover">
+                            <i class="fas fa-bars fs-3"></i>
+                        </span>
+                        <a class="navbar-brand me-0" href="home.html">
+                            <img src="./static/img/footer-logo.png" alt="logo" class="w-75">
+                        </a>
+                        <div class="d-flex  d-lg-none">
+                            <span>
+                                <i class="fas fa-search fs-3 me-3 pointer myhover search-ic"></i>
+                                <i class="fas fa-cart-plus fs-3 me-3 pointer myhover"></i>
+                                <a
+                                    href=""
+                                    class="m-0"
+                                    type="button"
+                                    class="text-decoration-none text-black"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop"
+                                >
+                                    <i class="bi bi-bell-fill fs-3 pointer myhover text-black"></i>
+                                </a>
+                            </span>
+                        </div>
+                        <div class="collapse navbar-collapse d-none d-lg-flex justify-content-between">
+                            <ul class="navbar-nav justify-content-end ms-xl-5 ms-lg-3 ps-xl-5 ps-3 mt-3 mt-lg-0">
+                                <li class="nav-item small">
+                                    <a class="nav-link fw-md text-black px-xl-4 px-lg-2 home" href="./index.html">Home</a>
+                                </li>
+                                <li class="nav-item small">
+                                    <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 courses" href="./courses.html">Courses</a>
+                                </li>
+                                <li class="nav-item small">
+                                    <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 about" href="./about-us.html">About</a>
+                                </li>
+                                <li class="nav-item small">
+                                    <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 contact" href="./contact-us.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex flex-wrap align-items-center my-3 my-md-0">
+                                <button class="bg-transparent px-2 py-1 me-2 border-0 ms-0 ms-lg-2 my-2 my-lg-0">
+                                    <i class="fas fa-search fs-4"></i>
+                                </button>
+                                <div class="d-flex my-2 my-lg-0 align-items-center gap-2">
+                                    <div class="d-block nav_icon">
+                                        <a
+                                            href="notifications.html"
+                                            class="m-0"
+                                          
+                                        >
+                                            <i class="bi bi-bell-fill fs-5" style="color: #636C79;"></i>
+                                            <div class="red-pos d-none d-lg-block"></div>
+                                        </a>
+                                    </div>
+                                    <div class="d-block nav_icon">
+                                        <a
+                                            href=""
+                                            class="m-0"
+                                            type="button"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop"
+                                        >
+                                            <i class="bi bi-cart3 fs-5" style="color: #636C79;"></i>
+                                        </a>
+                                    </div>
+                                    <a href="./signup.html" class="d-block btn-yellow text-decoration-none">
+                                        Register
+                                    </a>
+                                    <a href="signin.html" class="d-block signin-btn text-decoration-none">
+                                        Sign in
+                                    </a>
+                                    <div class="d-block nav_icon">
+                                        <a
+                                            href=""
+                                            class="m-0"
+                                            type="button"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop"
+                                        >
+                                            <i class="fa-sharp fa-solid fa-user fs-5" style="color: #636C79;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- ----------------------------
+                Sidebar
+        ---------------------------- -->
+        <div class="sidebar myshadow d-lg-none bg-white px-4 py-3">
+            <div class="d-flex justify-content-end myhover pointer fs-3 close mt-2">
+                <i class="fas fa-times fs-2"></i>
+            </div>
+            <ul class="navbar-nav mt-2 pb-2 border-bottom">
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-normal text-black px-lg-4 " href="./signup.html">Register</a>
+                </li>
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-normal text-black px-lg-4 " href="#">Sign in</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav flex-column mt-2">
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-md text-black px-lg-4 home" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-normal text-black px-lg-4 courses" href="./courses.html">Courses</a>
+                </li>
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-normal text-black px-lg-4 about" href="./about-us.html">About</a>
+                </li>
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-normal text-black px-lg-4 contact" href="./contact-us.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- ----------------------------
+            search filter
+        ---------------------------- -->
+        <section class="bg-white search-popup position-fixed vh-100 top-0 d-lg-none w-100">
+            <div class="d-flex justify-content-between px-3  align-items-center search-filter">
+                <span class="d-inline-block">
+                    <i class="fas fa-search text-secondary fs-5 mt-1"></i>
+                </span>
+                <input type="search" placeholder="Search for anything" class="w-100 border-0 py-3 text-secondary px-4">
+                <span class="close-search">
+                    <i class="fas fa-times fs-3 myhover pointer text-secondary mt-1"></i>
+                </span>
+            </div>
+        </section>
+      <!-- -----------------------------
+            Figma 
+     ---------------------------- -->
+        <section class="figma-course py-5">
+            <div class="mycontainer">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <video class="embed-responsive-item w-100 rounded-4" controls autoplay>
+                            <source src="static/img/figma.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                    <div class="col-lg-5 mt-4 mt-lg-0">
+                        <h1 class="fs-3 mb-0">
+                            Figma UI UX Design Essentials
+                        </h1>
+                        <p class="mt-1 mb-0">Use Figma to get a job in UI Design, User Interface, User Experience design, UX Design & Web Design.</p>
+                        <div class="d-flex flex-wrap align-items-center mt-2">
+                            <div class="py-3 px-4 my-yellow d-inline-block rounded-3 me-3">Bestseller</div>
+                            <div class="d-flex me-3 my-2">
+                                <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                <i class="bi bi-star star-clr me-2 fs-5"></i>
+                            </div>
+                            <a href="#" class="fs-6 purple-link my-2">(15,750 ratings)</a>
+                        </div>
+                        <p class="my-2">Created by <a href="#" class="fs-6 purple-link">Naseeb Designer</a></p>
+                       
+                        <div class="d-flex  py-3 px-3 t-students-bg rounded-3">
+                            <p class="mb-0 fw-md me-4">Total Students in this Course</p>
+                            <p class="mb-0 fw-md">68,194</p>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center">
+                            <div class="d-flex align-items-center me-3 mt-2">
+                                <img src="./static/img/highlight.png" alt="" class="me-2">
+                                <p class="mb-0 ">Last updated 04/06/2023</p>
+                            </div>
+                            <div class="d-flex align-items-center me-3  mt-2">
+                                <img src="./static/img/globe.png" alt="" class="me-2">
+                                <p class="mb-0 ">English</p>
+                            </div>
+                        </div>
+                        <div class="mt-3 d-flex align-items-center justify-content-between">
+                            <div>
+                                <p class="mb-0 fw-bold fs-5">$19.99</p>
+                                <div class="d-flex">
+                                    <p class="mb-0 small text-decoration-line-through me-3">$74.99</p>
+                                    <p class="mb-0 small">77% off</p>
+                                </div>
+                            </div>
+                            <div class="border border-1 rounded-3 border-dark py-2 px-3 d-flex align-items-center">
+                                <i class="far fa-heart fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <a href="#" class="btn-yellow d-block pointer text-decoration-none py-3 px-3 text-center">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- -----------------------------
+           Tabs section
+        ---------------------------- -->
+        <section class="crs-tabs">
+            <div class="mycontainer">
+                <div class="row mx-1">
+                    <ul class="nav nav-tabs tabs-bg border-0 rounded-3 px-3 py-3" id="myTabs" role="tablist">
+                        <li class="nav-item mx-2" role="presentation">
+                          <button class="nav-link border-0 text-black active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">What you'll learn</button>
+                        </li>
+                        <li class="nav-item mx-2" role="presentation">
+                          <button class="nav-link border-0 text-black" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Course Content</button>
+                        </li>
+                        <li class="nav-item mx-2" role="presentation">
+                          <button class="nav-link border-0 text-black" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Reviews</button>
+                        </li>
+                        <li class="nav-item mx-2" role="presentation">
+                          <button class="nav-link border-0 text-black" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab" aria-controls="tab4" aria-selected="false">Instructor</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content mt-2 px-0" id="myTabsContent">
+                        <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                            <div class=" grey-crs-bg py-4 px-4 rounded-5 mt-4">
+                                <h3 class="fs-4">What you'll learn</h3>
+                                <div class="row">
+                                  <div class="col-lg-7">
+                                      <div>
+                                          <div class="d-flex align-items-center">
+                                              <i class="bi bi-patch-check f3 check-icon me-2"></i>
+                                              <p class="mb-0">Structural Detailing using AutoCAD.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center">
+                                              <i class="bi bi-patch-check f3 check-icon me-2"></i>
+                                              <p class="mb-0">Learn how to check and correction structural drawing on site.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center">
+                                              <i class="bi bi-patch-check f3 check-icon me-2"></i>
+                                              <p class="mb-0">Column Detailing.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center">
+                                              <i class="bi bi-patch-check f3 check-icon me-2"></i>
+                                              <p class="mb-0">Slab Detailing.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center">
+                                              <i class="bi bi-patch-check f3 check-icon me-2"></i>
+                                              <p class="mb-0">Learn how to interpret and read reinforcement details for all structural elements.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center">
+                                              <i class="bi bi-patch-check f3 check-icon me-2"></i>
+                                              <p class="mb-0">Learn to Read and Interpret Structural  Detailing.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center">
+                                              <i class="bi bi-patch-check f3 check-icon me-2"></i>
+                                              <p class="mb-0">Beam Detailing.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center">
+                                              <i class="bi bi-patch-check f3 check-icon me-2"></i>
+                                              <p class="mb-0">Foundation Detailing.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center">
+                                              <i class="bi bi-patch-check f3 check-icon me-2"></i>
+                                              <p class="mb-0">Free UI kits & plugins for Figma which will speed up our workflow dramatically!</p>
+                                          </div>
+                                          <div class="d-flex align-items-center">
+                                              <i class="bi bi-patch-check f3 check-icon me-2"></i>
+                                              <p class="mb-0">How to make both simple & advanced micro interactions, page transitions & animations.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-5 d-flex align-items-start justify-content-between">
+                                    <div class="mt-5">
+                                      <a href="#" class="px-4 py-2 myhover rounded-3 d-inline-block text-decoration-none border border-1 border-dark text-dark mt-5 me-3">Buy Now</a>
+                                    </div>
+                                    <div class="">
+                                      <a href="#" class="px-5 py-2 myhover rounded-3 d-inline-block text-decoration-none text-white purple-bg text-white purple-border mt-4">Add to cart</a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                            <div class=" grey-crs-bg py-4 px-4 rounded-5 mt-4">
+                                <h3 class="fs-4">Description</h3>
+                                <p><span class="text-uppercase">important note: </span>The material of this course is also covered in my other course about web design and development with HTML5 & CSS3. Scroll to the bottom of this page to check out that course, too! If you're already taking my other course, you already have all it takes to start designing beautiful websites today!<br>
+                                    "Best web design course on Udemy: If you're interested in web design, but want more than just a "how to use WordPress" course, I highly recommend this one." — Florian Giusti<br>
+                                    "Very helpful to us left-brained people: I am familiar with HTML, CSS, JQuery, and Twitter Bootstrap, but I needed instruction in web design. This course gave me practical, impactful techniques for making websites more beautiful and engaging." — Susan Darlene Cain<br>
+                                    "The most educational instructor ever!: Everything is good about this course, you learn a lot, the instructor are excellent and the production is flawless. Love this course, simple as that!" — Lovisa<br>
+                                    Did you know that beautiful websites convert better than ones that don't stand out at all? This means more sales, more signups, and ultimately more money for you. Do you want to learn how to do exactly that?
+                                </p>
+                            </div>
+                            <div class="mt-4">
+                                <h3 class="fs-2">Course content</h3>
+                                <p class="small">29 sections - 111 lectures - 11h 32m total length</p>
+                                <div class="">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item rounded-4" style="background-color: #F3F7F8; border: .5px solid #FFA68B4D;">
+                                            <h2 class="accordion-header border-0 rounded-4" style="background-color: #F3F7F8; border: none">
+                                                <button
+                                                    class="accordion-button accordion-button-one collapsed border-0 rounded-4 pt-0 pb-3 ps-3 pe-3"
+                                                    style="background-color: #F3F7F8; color: #363434;"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseOne"
+                                                >
+                                                    <div class="d-flex align-items-start justify-content-between w-100">
+                                                        <h6 class="mb-0 pt-3">Get Started</h6>
+                                                        <span class="badge yellow-bg pt-3 pb-1 px-2 me-lg-5 me-md-3 me-2 text-black fw-normal">6 lectures - 28min</span>
+                                                    </div>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body py-4">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion mt-3" id="accordionExample">
+                                        <div class="accordion-item rounded-4" style="background-color: #F3F7F8; border: .5px solid #FFA68B4D;">
+                                            <h2 class="accordion-header border-0 rounded-4" style="background-color: #F3F7F8; border: none">
+                                                <button
+                                                    class="accordion-button accordion-button-one collapsed border-0 rounded-4 pt-0 pb-3 ps-3 pe-3"
+                                                    style="background-color: #F3F7F8; color: #363434;"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseTwo"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseTwo"
+                                                >
+                                                    <div class="d-flex align-items-start justify-content-between w-100">
+                                                        <h6 class="mb-0 pt-3">Wireframing-Low Fidelity</h6>
+                                                        <span class="badge yellow-bg pt-3 pb-1 px-2 me-lg-5 me-md-3 me-2 text-black fw-normal">2 lectures - 11min</span>
+                                                    </div>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body py-4">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion mt-3" id="accordionExample">
+                                        <div class="accordion-item rounded-4" style="background-color: #F3F7F8; border: .5px solid #FFA68B4D;">
+                                            <h2 class="accordion-header border-0 rounded-4" style="background-color: #F3F7F8; border: none">
+                                                <button
+                                                    class="accordion-button accordion-button-one collapsed border-0 rounded-4 pt-0 pb-3 ps-3 pe-3"
+                                                    style="background-color: #F3F7F8; color: #363434;"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseThree"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseThree"
+                                                >
+                                                    <div class="d-flex align-items-start justify-content-between w-100">
+                                                        <h6 class="mb-0 pt-3">Type, Color & Icon Interduction</h6>
+                                                        <span class="badge yellow-bg pt-3 pb-1 px-2 me-lg-5 me-md-3 me-2 text-black fw-normal">6 lectures - 28min</span>
+                                                    </div>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body py-4">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion mt-3" id="accordionExample">
+                                        <div class="accordion-item rounded-4" style="background-color: #F3F7F8; border: .5px solid #FFA68B4D;">
+                                            <h2 class="accordion-header border-0 rounded-4" style="background-color: #F3F7F8; border: none">
+                                                <button
+                                                    class="accordion-button accordion-button-one collapsed border-0 rounded-4 pt-0 pb-3 ps-3 pe-3"
+                                                    style="background-color: #F3F7F8; color: #363434;"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseFour"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseFour"
+                                                >
+                                                    <div class="d-flex align-items-start justify-content-between w-100">
+                                                        <h6 class="mb-0 pt-3">Pages</h6>
+                                                        <span class="badge yellow-bg pt-3 pb-1 px-2 me-lg-5 me-md-3 me-2 text-black fw-normal">1 lectures - 28min</span>
+                                                    </div>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body py-4">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion mt-3" id="accordionExample">
+                                        <div class="accordion-item rounded-4" style="background-color: #F3F7F8; border: .5px solid #FFA68B4D;">
+                                            <h2 class="accordion-header border-0 rounded-4" style="background-color: #F3F7F8; border: none">
+                                                <button
+                                                    class="accordion-button accordion-button-one collapsed border-0 rounded-4 pt-0 pb-3 ps-3 pe-3"
+                                                    style="background-color: #F3F7F8; color: #363434;"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseFive"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseFive"
+                                                >
+                                                    <div class="d-flex align-items-start justify-content-between w-100">
+                                                        <h6 class="mb-0 pt-3">Prototyping - Level 1</h6>
+                                                        <span class="badge yellow-bg pt-3 pb-1 px-2 me-lg-5 me-md-3 me-2 text-black fw-normal">4 lectures - 28min</span>
+                                                    </div>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body py-4">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion mt-3" id="accordionExample">
+                                        <div class="accordion-item rounded-4" style="background-color: #F3F7F8; border: .5px solid #FFA68B4D;">
+                                            <h2 class="accordion-header border-0 rounded-4" style="background-color: #F3F7F8; border: none">
+                                                <button
+                                                    class="accordion-button accordion-button-one collapsed border-0 rounded-4 pt-0 pb-3 ps-3 pe-3"
+                                                    style="background-color: #F3F7F8; color: #363434;"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseSix"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseSix"
+                                                >
+                                                    <div class="d-flex align-items-start justify-content-between w-100">
+                                                        <h6 class="mb-0 pt-3">Animation - Level 1</h6>
+                                                        <span class="badge yellow-bg pt-3 pb-1 px-2 me-lg-5 me-md-3 me-2 text-black fw-normal">4 lectures - 28min</span>
+                                                    </div>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body py-4">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <p class="mb-0 f7" style="color: #0D66EB;">Introdution to figma Essentials training course</p>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">Preview</p>
+                                                            <p class="mb-0 f7" style="color: #0D66EB;">02:20</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                            <div class=" grey-crs-bg py-4 px-4 rounded-5 mt-4">
+                                <h3 class="fs-4 mb-0">Reviews</h3>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-star-fill fs-5 yellow-clr me-2"></i>
+                                    <div class="d-flex flex-wrap align-items-center gap-md-2 gap-1">
+                                        <p class="mb-0">4.5</p>
+                                        <p class="mb-0 fs-6">Course rating</p>
+                                        <p class="mb-0 fs-6 d-flex align-items-center">
+                                            <i class="bi bi-dot fs-3" style="color: #9D9D9D;"></i>
+                                            <span>1K ratings</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row d-flex align-items-baseline px-2 mt-3">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="rating_box p-2 rounded-4" style="background-color: #FFDC83;">
+                                            <div class="rating_boxheader rounded-4" style="background-color: #F3F7F8;">
+                                                <div class="row d-flex align-items-center p-2">
+                                                    <div class="col-md-3 text-md-start text-center">
+                                                        <img class="rating_boxheaderimg rounded-circle" src="./static/img/rosalina-2.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <h6 class="mb-1" style="color: #363434;">Smitha</h6>
+                                                        <div class="d-flex align-items-center gap-1 flex-wrap">
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <span class="m-0 ps-2" style="font-size: 12px; color: #363434;">6 days ago</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating_boxbody mt-3 px-2 f7 fw-light" style="text-align: justify;">
+                                                <p>
+                                                    <p class="mb-1">awsome course. I am understanding the whole ui and ux essential very easily.</p>
+                                                    thank you very much for this wonderful course.
+                                                    <span id="dots2"></span>
+                                                    <span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                                                </p>
+                                                <div class="text-end">
+                                                    <button
+                                                        class="border-0"
+                                                        style="background: transparent;"
+                                                        onclick="myFunction2()"
+                                                        id="myBtn2"
+                                                    >Show more</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mt-3 mt-md-0">
+                                        <div class="rating_box p-2 rounded-4" style="background-color: #FFDC83;">
+                                            <div class="rating_boxheader rounded-4" style="background-color: #F3F7F8;">
+                                                <div class="row d-flex align-items-center p-2">
+                                                    <div class="col-md-3 text-md-start text-center">
+                                                        <img class="rating_boxheaderimg rounded-circle" src="./static/img/rosalina-2.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <h6 class="mb-1" style="color: #363434;">Smitha</h6>
+                                                        <div class="d-flex align-items-center gap-1 flex-wrap">
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <span class="m-0 ps-2" style="font-size: 12px; color: #363434;">6 days ago</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating_boxbody mt-3 px-2 f7 fw-light" style="text-align: justify;">
+                                                <p>
+                                                    <p class="mb-1">awsome course. I am understanding the whole ui and ux essential very easily.</p>
+                                                    thank you very much for this wonderful course.
+                                                    <span id="dots2"></span>
+                                                    <span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                                                </p>
+                                                <div class="text-end">
+                                                    <button
+                                                        class="border-0"
+                                                        style="background: transparent;"
+                                                        onclick="myFunction2()"
+                                                        id="myBtn2"
+                                                    >Show more</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mt-3 mt-md-0">
+                                        <div class="rating_box p-2 rounded-4" style="background-color: #FFDC83;">
+                                            <div class="rating_boxheader rounded-4" style="background-color: #F3F7F8;">
+                                                <div class="row d-flex align-items-center p-2">
+                                                    <div class="col-md-3 text-md-start text-center">
+                                                        <img class="rating_boxheaderimg rounded-circle" src="./static/img/rosalina-2.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <h6 class="mb-1" style="color: #363434;">Smitha</h6>
+                                                        <div class="d-flex align-items-center gap-1 flex-wrap">
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <span class="m-0 ps-2" style="font-size: 12px; color: #363434;">6 days ago</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating_boxbody mt-3 px-2 f7 fw-light" style="text-align: justify;">
+                                                <p>
+                                                    <p class="mb-1">awsome course. I am understanding the whole ui and ux essential very easily.</p>
+                                                    thank you very much for this wonderful course.
+                                                    <span id="dots2"></span>
+                                                    <span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                                                </p>
+                                                <div class="text-end">
+                                                    <button
+                                                        class="border-0"
+                                                        style="background: transparent;"
+                                                        onclick="myFunction2()"
+                                                        id="myBtn2"
+                                                    >Show more</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mt-3">
+                                        <div class="rating_box p-2 rounded-4" style="background-color: #FFDC83;">
+                                            <div class="rating_boxheader rounded-4" style="background-color: #F3F7F8;">
+                                                <div class="row d-flex align-items-center p-2">
+                                                    <div class="col-md-3 text-md-start text-center">
+                                                        <img class="rating_boxheaderimg rounded-circle" src="./static/img/rosalina-2.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <h6 class="mb-1" style="color: #363434;">Smitha</h6>
+                                                        <div class="d-flex align-items-center gap-1 flex-wrap">
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <span class="m-0 ps-2" style="font-size: 12px; color: #363434;">6 days ago</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating_boxbody mt-3 px-2 f7 fw-light" style="text-align: justify;">
+                                                <p>
+                                                    <p class="mb-1">awsome course. I am understanding the whole ui and ux essential very easily.</p>
+                                                    thank you very much for this wonderful course.
+                                                    <span id="dots2"></span>
+                                                    <span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                                                </p>
+                                                <div class="text-end">
+                                                    <button
+                                                        class="border-0"
+                                                        style="background: transparent;"
+                                                        onclick="myFunction2()"
+                                                        id="myBtn2"
+                                                    >Show more</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mt-3">
+                                        <div class="rating_box p-2 rounded-4" style="background-color: #FFDC83;">
+                                            <div class="rating_boxheader rounded-4" style="background-color: #F3F7F8;">
+                                                <div class="row d-flex align-items-center p-2">
+                                                    <div class="col-md-3 text-md-start text-center">
+                                                        <img class="rating_boxheaderimg rounded-circle" src="./static/img/rosalina-2.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <h6 class="mb-1" style="color: #363434;">Smitha</h6>
+                                                        <div class="d-flex align-items-center gap-1 flex-wrap">
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <span class="m-0 ps-2" style="font-size: 12px; color: #363434;">6 days ago</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating_boxbody mt-3 px-2 f7 fw-light" style="text-align: justify;">
+                                                <p>
+                                                    <p class="mb-1">awsome course. I am understanding the whole ui and ux essential very easily.</p>
+                                                    thank you very much for this wonderful course.
+                                                    <span id="dots2"></span>
+                                                    <span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                                                </p>
+                                                <div class="text-end">
+                                                    <button
+                                                        class="border-0"
+                                                        style="background: transparent;"
+                                                        onclick="myFunction2()"
+                                                        id="myBtn2"
+                                                    >Show more</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mt-3">
+                                        <div class="rating_box p-2 rounded-4" style="background-color: #FFDC83;">
+                                            <div class="rating_boxheader rounded-4" style="background-color: #F3F7F8;">
+                                                <div class="row d-flex align-items-center p-2">
+                                                    <div class="col-md-3 text-md-start text-center">
+                                                        <img class="rating_boxheaderimg rounded-circle" src="./static/img/rosalina-2.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <h6 class="mb-1" style="color: #363434;">Smitha</h6>
+                                                        <div class="d-flex align-items-center gap-1 flex-wrap">
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <span class="m-0 ps-2" style="font-size: 12px; color: #363434;">6 days ago</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating_boxbody mt-3 px-2 f7 fw-light" style="text-align: justify;">
+                                                <p>
+                                                    <p class="mb-1">awsome course. I am understanding the whole ui and ux essential very easily.</p>
+                                                    thank you very much for this wonderful course.
+                                                    <span id="dots2"></span>
+                                                    <span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                                                </p>
+                                                <div class="text-end">
+                                                    <button
+                                                        class="border-0"
+                                                        style="background: transparent;"
+                                                        onclick="myFunction2()"
+                                                        id="myBtn2"
+                                                    >Show more</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mt-3">
+                                        <div class="rating_box p-2 rounded-4" style="background-color: #FFDC83;">
+                                            <div class="rating_boxheader rounded-4" style="background-color: #F3F7F8;">
+                                                <div class="row d-flex align-items-center p-2">
+                                                    <div class="col-md-3 text-md-start text-center">
+                                                        <img class="rating_boxheaderimg rounded-circle" src="./static/img/rosalina-2.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <h6 class="mb-1" style="color: #363434;">Smitha</h6>
+                                                        <div class="d-flex align-items-center gap-1 flex-wrap">
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <span class="m-0 ps-2" style="font-size: 12px; color: #363434;">6 days ago</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating_boxbody mt-3 px-2 f7 fw-light" style="text-align: justify;">
+                                                <p>
+                                                    <p class="mb-1">awsome course. I am understanding the whole ui and ux essential very easily.</p>
+                                                    thank you very much for this wonderful course.
+                                                    <span id="dots2"></span>
+                                                    <span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                                                </p>
+                                                <div class="text-end">
+                                                    <button
+                                                        class="border-0"
+                                                        style="background: transparent;"
+                                                        onclick="myFunction2()"
+                                                        id="myBtn2"
+                                                    >Show more</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mt-3">
+                                        <div class="rating_box p-2 rounded-4" style="background-color: #FFDC83;">
+                                            <div class="rating_boxheader rounded-4" style="background-color: #F3F7F8;">
+                                                <div class="row d-flex align-items-center p-2">
+                                                    <div class="col-md-3 text-md-start text-center">
+                                                        <img class="rating_boxheaderimg rounded-circle" src="./static/img/rosalina-2.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <h6 class="mb-1" style="color: #363434;">Smitha</h6>
+                                                        <div class="d-flex align-items-center gap-1 flex-wrap">
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <span class="m-0 ps-2" style="font-size: 12px; color: #363434;">6 days ago</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating_boxbody mt-3 px-2 f7 fw-light" style="text-align: justify;">
+                                                <p>
+                                                    <p class="mb-1">awsome course. I am understanding the whole ui and ux essential very easily.</p>
+                                                    thank you very much for this wonderful course.
+                                                    <span id="dots2"></span>
+                                                    <span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                                                </p>
+                                                <div class="text-end">
+                                                    <button
+                                                        class="border-0"
+                                                        style="background: transparent;"
+                                                        onclick="myFunction2()"
+                                                        id="myBtn2"
+                                                    >Show more</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mt-3">
+                                        <div class="rating_box p-2 rounded-4" style="background-color: #FFDC83;">
+                                            <div class="rating_boxheader rounded-4" style="background-color: #F3F7F8;">
+                                                <div class="row d-flex align-items-center p-2">
+                                                    <div class="col-md-3 text-md-start text-center">
+                                                        <img class="rating_boxheaderimg rounded-circle" src="./static/img/rosalina-2.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <h6 class="mb-1" style="color: #363434;">Smitha</h6>
+                                                        <div class="d-flex align-items-center gap-1 flex-wrap">
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <i class="bi bi-star-fill" style="color: #FFBA0A;"></i>
+                                                            <span class="m-0 ps-2" style="font-size: 12px; color: #363434;">6 days ago</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating_boxbody mt-3 px-2 f7 fw-light" style="text-align: justify;">
+                                                <p>
+                                                    <p class="mb-1">awsome course. I am understanding the whole ui and ux essential very easily.</p>
+                                                    thank you very much for this wonderful course.
+                                                    <span id="dots2"></span>
+                                                    <span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                                                </p>
+                                                <div class="text-end">
+                                                    <button
+                                                        class="border-0"
+                                                        style="background: transparent;"
+                                                        onclick="myFunction2()"
+                                                        id="myBtn2"
+                                                    >Show more</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+                            <div class=" grey-crs-bg py-4 px-4 rounded-5 mt-4">
+                                <h3 class="fs-4">Instruction</h3>
+                                <div class="d-sm-flex mt-4">
+                                    <div class="me-2 instructor-img">
+                                        <img src="static/img/personn.png" alt="">
+                                    </div>
+                                    <div class="mt-3 mt-sm-0">
+                                        <h3 class="fs-3">Naseeb Designer</h3>
+                                        <p class="mb-0">Adobe Certified Instructor & Adobe Certified Expert</p>
+                                        <div class="d-flex my-2">
+                                            <img src="static/img/star-icon.png" class="me-2" alt="star-icon">
+                                            <p class="mb-0">4.7 Intructor Rating</p>
+                                        </div>
+                                        <div class="d-flex my-2">
+                                            <img src="static/img/badge.png" class="me-2" alt="star-icon">
+                                            <p class="mb-0">201,081 Reviews</p>
+                                        </div>
+                                        <div class="d-flex my-2">
+                                            <img src="static/img/users-alt.png" class="me-2" alt="star-icon">
+                                            <p class="mb-0">642,081 Students</p>
+                                        </div>
+                                        <div class="d-flex my-2">
+                                            <img src="static/img/e-learning.png" class="me-2" alt="star-icon">
+                                            <p class="mb-0">33 Courses</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    Sharing is who I am, and teaching is where I am at my best, because I've been on both sides of that equation, and getting to deliver useful training is my
+meaningful way to be a part of the creative community.
+Sharing is who I am, and teaching is where. <a class="text-decoration-none text-black fw-md fs-6" href="#">Show more <i class="fa-solid fa-chevron-down ms-2"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- -----------------------------
+                related courses
+        ------------------------------ -->
+    <section class="pt-5 mb-5 rel-crs">
+        <div class="mycontainer ">
+            <h2 class="fs-1 fw-1 ps-3">
+                Related Courses:
+            </h2>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- ----------------------------
+                footer
+     ---------------------------- -->
+            <section class="py-4 py-xl-5 skyblue-bg mt-5">
+                <div class="mycontainer">
+                    <div class="row mb-4 mx-0 gx-0">
+                        <div class="d-flex align-items-center justify-content-between p-0">
+                            <a href="index.html" class="me-4 d-flex justify-content-md-start justify-content-center">
+                                <img class="img-fluid" src="./static/img/footer-logo.png" alt="">
+                            </a>
+                            <div class="d-md-flex align-items-center gap-4">
+                                <p class="text-start fw-md">Follow Us:</p>
+                                <div class="d-flex flex-wrap  align-items-center gap-4 justify-content-end">
+                                    <div class="d-flex justify-content-start ">
+                                        <a href="#" class="d-inline-block social">
+                                            <img class="img-fluid" src="./static/img/fb.png" alt="">
+                                        </a>
+                                        <a href="#" class="d-inline-block social">
+                                            <img class="img-fluid" src="./static/img/insta.png" alt="">
+                                        </a>
+                                        <a href="#" class="d-inline-block social">
+                                            <img class="img-fluid" src="./static/img/twt.png" alt="">
+                                        </a>
+                                        <a href="#" class="d-inline-block social">
+                                            <img class="img-fluid" src="./static/img/ytube.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-0 gx-0">
+                        <div class="d-none d-md-block col-lg-4 col-md-6">
+                            <p class="d-flex align-items-center text-md-start f6">
+                                In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+                                    visual form of a document or a typeface without relying on meaningful content.
+                            </p>
+                            <p class="mb-0 mt-4 d-flex justify-content-start">Partner with:</p>
+                            <p class="d-flex justify-content-start">
+                                <b>Microsoft</b>
+                            </p>
+                            <div class="d-flex justify-content-start mb-3 mb-md-0">
+                                <img class="img-fluid" src="./img/windows.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6 d-flex justify-content-start justify-content-md-center justify-content-lg-end mt-md-0 mt-2">
+                            <div>
+                                <p class="fw-semibold">Quick Links</p>
+                                <ul class="p-0">
+                                    <li class="list-unstyled ">
+                                        <a class="text-decoration-none" href="#">Home</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Courses</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Categories</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Instructor</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Courses</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-6 d-flex justify-content-start justify-content-md-end  mt-md-0 mt-2">
+                            <div>
+                                <p class="fw-semibold">Top Categories</p>
+                                <ul class="p-0 ">
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Computer Programing</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Design</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Marketing</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Bussiness</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Finance</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 d-none d-lg-flex justify-content-lg-center mt-lg-0 mt-2 ps-lg-4">
+                            <div class="">
+                                <p class="text-uppercase text-lg-start text-center fw-semibold">Our Applications</p>
+                                <div class="d-flex align-items-center bg-black py-2 px-3 rounded-3 gap-2">
+                                    <img src="./img/playstore.png" class="play" alt="">
+                                    <div>
+                                        <p class="text-white mb-0">Get it on</p>
+                                        <h5 class="text-white mb-0 fs-6">Google Play</h5>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center bg-black py-2 px-3 rounded-3 gap-2 mt-3">
+                                    <img src="./img/Apple_Inc.-White-Logo.wine.png" class="play" alt="">
+                                    <div>
+                                        <p class="text-white mb-0">Download on the</p>
+                                        <h3 class="text-white mb-0 fs-6">App Store</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <!-- ----------------------------
+      Colored footer 
+  ---------------------------- -->
+        <footer class="p-3" style="background-color: #FFA68B;"></footer>
+        <!-- Bootstrap 5 JS CDN (Optional) -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- ------slick-js--- -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script src="./static/js/main.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".display-button").slideUp();
+
+                // Use event delegation to handle dynamically added elements
+                $(".autoplay-2").on("mouseenter", ".slick-slide", function() {
+                    $(this).find(".display-button").slideDown();
+                });
+
+                $(".autoplay-2").on("mouseleave", ".slick-slide", function() {
+                    $(this).find(".display-button").slideUp();
+                });
+            });
+        </script>
+    </body>
+</html>
