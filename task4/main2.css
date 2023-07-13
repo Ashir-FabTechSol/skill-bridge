@@ -110,6 +110,9 @@ body {
     justify-content: center;
     margin-top: auto;
 }
+.l-out h5{
+    font-size: 16px;
+}
 
 .l-icn {
     height: 18px;
@@ -175,7 +178,7 @@ body {
     margin: 20px 40px;
     padding: 10px 20px;
     border-radius: 20px;
-    min-height: 470px;
+    min-height: 465px;
 
 }
 
@@ -536,14 +539,26 @@ body {
     font-size: 16px;
     font-family: rubik;
 }
-<<<<<<< HEAD
+.txt-m{
+    border: solid 1px #2C2C2C;
+    border-radius: 20px;
+}
+.txt-m textarea{
+    border: none;
+    outline: none;
+}
+
+.txt-a{
+    resize: none;
+    margin: 10px;
+}
 .lower-left h5 a{
     font-size: 16px;
 }
 .username h3 {
     font-size: 20px;
     font-weight: bold;
-=======
+}
 .tbl-responsive {
     width: 1000px;
 }
@@ -552,7 +567,41 @@ body {
 }
 .panel-right{
     overflow-x: auto;
->>>>>>> 2c5a48d3b9925a33617980d3c70c30dba6d4e503
+
+}
+.tb-t{
+    background-color: #FFF3DA;
+}
+.btn-txt button{
+    width: 100%;
+    max-width: 90px;
+    background-color: #FFA68B;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.btn-c button {
+    width: 100%;
+    max-width: 200px;
+    background-color: #2C2C2C;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0;
+}
+.typ-1 select {
+    background: transparent;
+    border: solid 1px #2C2C2C;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.typ-12{
+    margin-left: 40px;
 }
 @media screen and (max-width:768px) {
     .not-main {
