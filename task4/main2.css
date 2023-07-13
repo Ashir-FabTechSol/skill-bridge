@@ -520,6 +520,12 @@
 .list-s .ui-state-active{
     background-color: #FFA68B
 }
+.tdd{
+    font-size: 14px;
+}
+.tdd tr img{
+    height: 40px;
+}
 @media screen and (max-width:768px) {
     .not-main {
         display: flex;
