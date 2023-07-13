@@ -622,6 +622,25 @@ tbody, td, tfoot, th, thead, tr {
 .orng-txt {
     color: #FFA68B;
 }
+.level-1 select {
+    background: transparent;
+    border: solid 1px #2C2C2C;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.de-btn{
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #FFA68B;
+    padding: 10px 30px;
+    color: #000;
+}
+.de-btn:hover{
+    color: #000;
+}
+
 @media screen and (max-width:768px) {
     .not-main {
         display: flex;
