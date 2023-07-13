@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: rubik;
+}
 .container {
     max-width: 1200px;
     width: 100%;
@@ -531,6 +534,13 @@
 .t-4 p{
     font-size: 16px;
     font-family: rubik;
+}
+.lower-left h5 a{
+    font-size: 16px;
+}
+.username h3 {
+    font-size: 20px;
+    font-weight: bold;
 }
 @media screen and (max-width:768px) {
     .not-main {
