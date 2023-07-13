@@ -510,6 +510,8 @@
 .tab-content {
     display: none;
     padding: 20px;
+    width: 100%;
+    max-width: 7900px;
   }
   .list-s .w-hed{
     background-color: #FFF3D9;
@@ -526,6 +528,10 @@
 }
 .tdd tr img{
     height: 40px;
+}
+.t-4 p{
+    font-size: 16px;
+    font-family: rubik;
 }
 .tbl-responsive {
     width: 1000px;
