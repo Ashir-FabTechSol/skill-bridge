@@ -5,6 +5,7 @@
 }
 body {
     font-family: rubik;
+    background: transparent !important;
 }
 .container {
     max-width: 1200px;
@@ -252,7 +253,7 @@ body {
 }
 
 .tit {
-    width: calc(50% - 30px);
+    width: calc(50% - 15px);
     margin-top: 20px;
     font-size: 5;
     font-weight: 100;
@@ -337,7 +338,7 @@ body {
     background-color: #FFA68B;
     border-radius: 10px;
     border: none;
-    margin: 20px 20px;
+    margin: 20px 0;
     padding: 20px 0;
 }
 
@@ -374,7 +375,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 680px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .lec input {
@@ -386,16 +387,16 @@ body {
 }
 
 .lec {
-    margin-left: 15px;
-    max-width: calc(100% - 560px);
+    margin-left: 0;
+    width: calc(50% - 15px);
     margin-top: 20px;
     font-weight: 100;
     font-family: rubik;
 }
 
 .txt {
-    margin-left: 15px;
-    max-width: 660px;
+    /* margin-left: 15px; */
+    max-width: 680px;
     margin-top: 20px;
     font-weight: 100;
     font-family: rubik;
@@ -414,7 +415,7 @@ body {
     border: dashed 1px #2C2C2C;
     border-radius: 20px;
     margin-top: 20px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     max-width: 300px;
     padding: 5px 20px;
 }
@@ -603,6 +604,13 @@ body {
 .typ-12{
     margin-left: 40px;
 }
+
+.tbl-main {
+    padding: 0 20px;
+}
+.orng-txt {
+    color: #FFA68B;
+}
 @media screen and (max-width:768px) {
     .not-main {
         display: flex;
@@ -650,6 +658,19 @@ body {
     }
     .r-top {
         margin: 20px 20px;
+    }
+    .lec,
+    .txt,
+    .add-1 {
+        margin-left: 0;
+    }
+    .add-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lec {
+        width: calc(100% - 0px);
     }
 }
 @media screen and (max-width:480px) {
