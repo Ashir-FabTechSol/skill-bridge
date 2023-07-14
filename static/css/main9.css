@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.image img{
+    width: 100%;
+    max-width: 100px;
+}
+.ctr a{
+    color: blueviolet;
+}
+.icn{
+    background-color: #DFEAEC;
+    padding: 30px 20px;
+    border-bottom: 0;
+}
+p h5{
+    font-family: rubik;
+}
+@media screen and (max-width:576px) {
+    .image img{
+        max-width: 200px;
+    }
+}
+image
