@@ -637,6 +637,7 @@ tr {
     max-width: 200px;
     background-color: #2C2C2C;
     color: #fff;
+    margin-top: 20px;
     border-radius: 10px;
     border: none;
     padding: 10px 0;
@@ -736,7 +737,8 @@ tr {
     }
 
     .panel-right {
-        margin-left: 0
+        margin-left: 0;
+        width: calc(100% - 0px);
     }
 
     .panel-left {
@@ -790,6 +792,14 @@ tr {
 
     .lec {
         width: calc(100% - 0px);
+    }
+
+    .typ-1 {
+        max-width: 100%;
+        width: calc(100% - 0px);
+    }
+    .typ-12 {
+        margin-left: 0;
     }
 }
 
