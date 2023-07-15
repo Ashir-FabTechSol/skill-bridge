@@ -39,9 +39,21 @@ p h5{
   .progress-bar::before {
     content: "80%";
   }
+  .badge{
+    border-radius: 0px 0px 10px 10px;
+  }
+  .vid{
+    margin-top: 85px;
+  }
+  .mbtn button{
+    background-color: #FFF3D9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: auto;
+  }
 @media screen and (max-width:576px) {
     .image img{
         max-width: 200px;
     }
 }
-image
