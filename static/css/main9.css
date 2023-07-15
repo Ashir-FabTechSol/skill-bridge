@@ -60,8 +60,72 @@ p h5{
   }
   .im5 img{
     max-width: 130px;
-    border:solid hotpink 2px;
+    border:solid #FFA68B 2px;
   }
+  .profile{
+    max-width: 130px;
+    border:solid #FFA68B 2px;
+  }
+  .profile img {
+    width: 100%;
+  }
+  .de{
+    color: #FFA68B;
+  }
+  .inp{
+    border-left:solid 5px #FFA68B ;
+    border-right: solid 1px #DFEAEC;
+    border-bottom: solid 1px #DFEAEC;
+    border-top: solid 1px #DFEAEC;
+  }
+  .inp input:focus {
+    outline: none
+}
+  .icn-1{
+    color: #FFA68B;
+  }
+  .abt{
+    color: #FFA68B;
+  }
+  .rdo{
+    max-width: 400px;
+  }
+  .typ-123 select {
+    background: transparent;
+    width: 100%;
+}
+.typ-124 select:focus {      
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+}
+select{
+ 
+-webkit-appearance: none
+       
+}
+.inp select:focus {
+    outline: none
+}
+.camera-ic {
+    bottom: 16px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.camera-ic i {
+    color: #fff
+}
+
+.profile:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    background: linear-gradient(to bottom,transparent 50%,rgba(0,0,0,0.5) 50%)
+}
+
 @media screen and (max-width:576px) {
     .image img{
         max-width: 200px;
