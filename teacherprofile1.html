@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <!-- Bootstrap 5 CSS CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./static/css/main.css">
+        <link rel="stylesheet" href="./static/css/main4.css">
+        <link rel="stylesheet" href="./static/css/style.css">
+        <link rel="stylesheet" href="./static/css/main9.css">
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    </head>
+    <body class="main-bg position-relative content">
+        <!-- ----------------------------
+            Header 
+        ---------------------------- -->
+        <header class="shadow-sm px-xl-5 px-lg-3 py-md-2">
+            <div class="mycontainer">
+                <nav class="navbar pt-0 pb-lg-0 navbar-expand-lg ">
+                    <div class="container-fluid d-flex align-items-center px-0">
+                        <span class="toggler d-lg-none pointer myhover">
+                            <i class="fas fa-bars fs-3"></i>
+                        </span>
+                        <a class="navbar-brand me-0" href="home.html">
+                            <img src="./static/img/footer-logo.png" alt="logo" class="w-75">
+                        </a>
+                        <div class="d-flex  d-lg-none">
+                            <span>
+                                <i class="fas fa-search fs-3 me-3 pointer myhover search-ic"></i>
+                                <i class="fas fa-cart-plus fs-3 me-3 pointer myhover"></i>
+                                <a
+                                    href=""
+                                    class="m-0"
+                                    type="button"
+                                    class="text-decoration-none text-black"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop"
+                                >
+                                    <i class="bi bi-bell-fill fs-3 pointer myhover text-black"></i>
+                                </a>
+                            </span>
+                        </div>
+                        <div class="collapse navbar-collapse d-none d-lg-flex justify-content-between">
+                            <ul class="navbar-nav justify-content-end ms-xl-5 ms-lg-3 ps-xl-5 ps-3 mt-3 mt-lg-0">
+                                <li class="nav-item small">
+                                    <a class="nav-link fw-md text-black px-xl-4 px-lg-2 home" href="./index.html">Home</a>
+                                </li>
+                                <li class="nav-item small">
+                                    <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 courses" href="./courses.html">Courses</a>
+                                </li>
+                                <li class="nav-item small">
+                                    <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 about" href="./about-us.html">About</a>
+                                </li>
+                                <li class="nav-item small">
+                                    <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 contact" href="./contact-us.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex flex-wrap align-items-center my-3 my-md-0">
+                                <button class="bg-transparent px-2 py-1 me-2 border-0 ms-0 ms-lg-2 my-2 my-lg-0">
+                                    <i class="fas fa-search fs-4"></i>
+                                </button>
+                                <div class="d-flex my-2 my-lg-0 align-items-center gap-2">
+                                    <div class="d-block nav_icon">
+                                        <a
+                                            href="notifications.html"
+                                            class="m-0"
+                                          
+                                        >
+                                            <i class="bi bi-bell-fill fs-5" style="color: #636C79;"></i>
+                                            <div class="red-pos d-none d-lg-block"></div>
+                                        </a>
+                                    </div>
+                                    <div class="d-block nav_icon">
+                                        <a
+                                            href="addtocart.html"
+                                            class="m-0"
+                                        >
+                                            <i class="bi bi-cart3 fs-5" style="color: #636C79;"></i>
+                                        </a>
+                                    </div>
+                                    <a href="./signup.html" class="d-block btn-yellow text-decoration-none">
+                                        Register
+                                    </a>
+                                    <a href="signin.html" class="d-block signin-btn text-decoration-none">
+                                        Sign in
+                                    </a>
+                                    <div class="d-block nav_icon">
+                                        <a
+                                            href=""
+                                            class="m-0"
+                                            type="button"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop"
+                                        >
+                                            <i class="fa-sharp fa-solid fa-user fs-5" style="color: #636C79;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- ----------------------------
+                Sidebar
+        ---------------------------- -->
+        <div class="sidebar myshadow d-lg-none bg-white px-4 py-3">
+            <div class="d-flex justify-content-end myhover pointer fs-3 close mt-2">
+                <i class="fas fa-times fs-2"></i>
+            </div>
+            <ul class="navbar-nav mt-2 pb-2 border-bottom">
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-normal text-black px-lg-4 " href="./signup.html">Register</a>
+                </li>
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-normal text-black px-lg-4 " href="#">Sign in</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav flex-column mt-2">
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-md text-black px-lg-4 home" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-normal text-black px-lg-4 courses" href="./courses.html">Courses</a>
+                </li>
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-normal text-black px-lg-4 about" href="./about-us.html">About</a>
+                </li>
+                <li class="nav-item small">
+                    <a class="nav-link f4 fw-normal text-black px-lg-4 contact" href="./contact-us.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- ----------------------------
+            search filter
+        ---------------------------- -->
+        <section class="bg-white search-popup position-fixed vh-100 top-0 d-lg-none w-100">
+            <div class="d-flex justify-content-between px-3  align-items-center search-filter">
+                <span class="d-inline-block">
+                    <i class="fas fa-search text-secondary fs-5 mt-1"></i>
+                </span>
+                <input type="search" placeholder="Search for anything" class="w-100 border-0 py-3 text-secondary px-4">
+                <span class="close-search">
+                    <i class="fas fa-times fs-3 myhover pointer text-secondary mt-1"></i>
+                </span>
+            </div>
+        </section>
+         <!-- -----------------------------
+           heading
+        ---------------------------- -->
+    <section>
+        <div class="container">
+            <div class="top-main py-5 rounded-4 mt-5">
+                <h5 class="text-white ms-5">
+                    Hello Student
+                </h5>
+                <p class="text-white ms-5 mb-0">
+                    i'm a Ui/UX Teacher
+                </p>
+            </div>
+
+            <div class="top-m2 d-flex justify-content-between mt-5">
+                <div class="he5">
+                    <h5>
+                        Instructor
+                    </h5>
+                </div>
+                <div class="bt5 ">
+                    <button class="d-flex px-3 py-2 border-0 rounded-2">
+                        <i class="fa-solid fa-check text-white me-2 border border-light rounded-circle p-1"></i>
+                        <p class="mb-0 text-white">verified</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="top-m3 mt-4 mt-sm-0">
+                <div class="d-sm-flex">
+                    <div class="im5 rounded-circle text-center">
+                        <img class="img-fluid rounded-circle" src="./static/img/smiling-man-surfing-net-laptop-while-drinking-coffee-bar.png" alt="">
+                    </div>
+                    <div class="t-m3-des ms-md-5 mt-3">
+                        <h5>
+                            Naseeb UI/UX Designer
+                        </h5>
+                        <p>
+                            Adobe Certified Instructor & Adobe Certified Expert
+                        </p>
+
+                        <div class="d-flex" >
+                            <div class="t-m3-des2 me-4">
+                                <p> <b>Total students</b> <br>642,816</p>
+                            </div>
+                            <div class="t-m3-des2 me-4">
+                                <p><b>Reviews</b> <br>201,362</p>
+                            </div>
+                        </div>
+                        <div class="abtme">
+                            <h5>
+                                About me
+                            </h5>
+                            <p>
+                                Sharing is who I am, and teaching is where I am at my best,
+                                because I've been on both sides of that equation, and getting
+                                to deliver useful training is my
+                                meaningful way to be a part of the creative community. <br> <br>
+                                Sharing is who I am, and teaching is where
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+        </div>
+    </section>
+
+         <!-- -----------------------------
+           Tabs section
+        ---------------------------- -->
+
+        <!-- -----------------------------
+                related courses
+        ------------------------------ -->
+    <section class="pt-5 mb-5 rel-crs">
+        <div class="mycontainer ">
+            <h5 class="ps-3">
+                My Courses ( 32 )
+            </h5>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="text-center">
+                        <div class="shadow-sm bg-white mx-0 mx-sm-3 m-3 px-3 px-sm-3 py-3 rounded-4">
+                            <div class="mb-3">
+                                <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                            </div>
+                            <div class="price_tooltip px-3 py-2 rounded-4 bottom_tooltip_box2">
+                                <!-- Tooltip content -->
+                                <div class="tooltip border3  px-4 py-xl-4 py-2">
+                                    <h5 class="">Machine Learning A-Z : AI, Python & R + ChatGPT Bonus [2023]</h5>
+                                    <p class="mb-xl-4 mb-2">
+                                        A Practical Programming course for office workers, acadeimics, and administrators
+                    who want to improve their productivity.
+                                    </p>
+                                    <div class="mb-xl-4 mb-2">
+                                        <span>Updated :</span>
+                                        <span>February 2023</span>
+                                    </div>
+                                    <div>
+                                        <button class="btn_black py-2 w-75 mb-3">Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div>
+                                        <p class="text-start mb-0">Intro to C++ Programming</p>
+                                    </div>
+                                    <div class="">
+                                        <del class="fs_12">$50</del>
+                                        <span class="fs_16">$30</span>
+                                    </div>
+                                </div>
+                                <p class="text-start mb-0 fw-md">Computer-Programming</p>
+                                <div class="d-flex justify-content-between mt-2 flex-wrap">
+                                    <div class="d-flex gap-2">
+                                        <p class="text-start mb-1">Beginner</p>
+                                        <p class="text-start mb-1">2 months</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn_AddToCart py-2 px-2 fs_14 rounded-2">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- ----------------------------
+                footer
+     ---------------------------- -->
+            <section class="py-4 py-xl-5 skyblue-bg mt-5">
+                <div class="mycontainer">
+                    <div class="row mb-4 mx-0 gx-0">
+                        <div class="d-flex align-items-center justify-content-between p-0">
+                            <a href="index.html" class="me-4 d-flex justify-content-md-start justify-content-center">
+                                <img class="img-fluid" src="./static/img/footer-logo.png" alt="">
+                            </a>
+                            <div class="d-md-flex align-items-center gap-4">
+                                <p class="text-start fw-md">Follow Us:</p>
+                                <div class="d-flex flex-wrap  align-items-center gap-4 justify-content-end">
+                                    <div class="d-flex justify-content-start ">
+                                        <a href="#" class="d-inline-block social">
+                                            <img class="img-fluid" src="./static/img/fb.png" alt="">
+                                        </a>
+                                        <a href="#" class="d-inline-block social">
+                                            <img class="img-fluid" src="./static/img/insta.png" alt="">
+                                        </a>
+                                        <a href="#" class="d-inline-block social">
+                                            <img class="img-fluid" src="./static/img/twt.png" alt="">
+                                        </a>
+                                        <a href="#" class="d-inline-block social">
+                                            <img class="img-fluid" src="./static/img/ytube.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-0 gx-0">
+                        <div class="d-none d-md-block col-lg-4 col-md-6">
+                            <p class="d-flex align-items-center text-md-start f6">
+                                In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+                                    visual form of a document or a typeface without relying on meaningful content.
+                            </p>
+                            <p class="mb-0 mt-4 d-flex justify-content-start">Partner with:</p>
+                            <p class="d-flex justify-content-start">
+                                <b>Microsoft</b>
+                            </p>
+                            <div class="d-flex justify-content-start mb-3 mb-md-0">
+                                <img class="img-fluid" src="./img/windows.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6 d-flex justify-content-start justify-content-md-center justify-content-lg-end mt-md-0 mt-2">
+                            <div>
+                                <p class="fw-semibold">Quick Links</p>
+                                <ul class="p-0">
+                                    <li class="list-unstyled ">
+                                        <a class="text-decoration-none" href="#">Home</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Courses</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Categories</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Instructor</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Courses</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-6 d-flex justify-content-start justify-content-md-end  mt-md-0 mt-2">
+                            <div>
+                                <p class="fw-semibold">Top Categories</p>
+                                <ul class="p-0 ">
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Computer Programing</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Design</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Marketing</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Bussiness</a>
+                                    </li>
+                                    <li class="list-unstyled">
+                                        <a class="text-decoration-none" href="#">Finance</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 d-none d-lg-flex justify-content-lg-center mt-lg-0 mt-2 ps-lg-4">
+                            <div class="">
+                                <p class="text-uppercase text-lg-start text-center fw-semibold">Our Applications</p>
+                                <div class="d-flex align-items-center bg-black py-2 px-3 rounded-3 gap-2">
+                                    <img src="./img/playstore.png" class="play" alt="">
+                                    <div>
+                                        <p class="text-white mb-0">Get it on</p>
+                                        <h5 class="text-white mb-0 fs-6">Google Play</h5>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center bg-black py-2 px-3 rounded-3 gap-2 mt-3">
+                                    <img src="./img/Apple_Inc.-White-Logo.wine.png" class="play" alt="">
+                                    <div>
+                                        <p class="text-white mb-0">Download on the</p>
+                                        <h3 class="text-white mb-0 fs-6">App Store</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <!-- ----------------------------
+      Colored footer 
+  ---------------------------- -->
+        <footer class="p-3" style="background-color: #FFA68B;"></footer>
+        <!-- Bootstrap 5 JS CDN (Optional) -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- ------slick-js--- -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script src="./static/js/main.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".display-button").slideUp();
+
+                // Use event delegation to handle dynamically added elements
+                $(".autoplay-2").on("mouseenter", ".slick-slide", function() {
+                    $(this).find(".display-button").slideDown();
+                });
+
+                $(".autoplay-2").on("mouseleave", ".slick-slide", function() {
+                    $(this).find(".display-button").slideUp();
+                });
+            });
+        </script>
+    </body>
+</html>
