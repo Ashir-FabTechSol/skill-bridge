@@ -250,13 +250,19 @@ search filter
                                 </div>
                             </div>
                             <div class="rdo d-flex mt-4 skyblue-bg rounded-3 py-3 px-3">
-                                <form>
-                                <p class="mb-0 ms-5">Gender</p>
-                                <input class="ms-5" type="radio" id="Male" name="Gender" value="Male">
-                                <label for="Male">Male</label>
-                                <input class="ms-5" type="radio" id="Female" name="Gender" value="Female">
-                                <label for="Female">Female</label>
-                                </form> 
+                                   <div class="d-flex align-items-center">
+                                        <p class="mb-0">Gender</p>
+                                        <label class="custom-radio position-relative pointer">
+                                            Male
+                                            <input class="ms-5 position-absolute pointer opacity-0" type="radio" id="Male" name="Gender" value="Male">
+                                            <span class="checkmark position-absolute left-0"></span>
+                                        </label>
+                                        <label class="custom-radio position-relative pointer">
+                                            Female
+                                            <input class="ms-5 position-absolute pointer opacity-0" type="radio" id="Female" name="Gender" value="Female">
+                                            <span class="checkmark position-absolute left-0"></span>
+                                        </label>
+                                   </div>
                             </div>
                             <a href="#" class="abt text-decoration-none d-block mt-4">
                                 Change Password
@@ -302,14 +308,13 @@ search filter
                                 <div class="inp skyblue-bg rounded-3  py-3 px-3">
                                     <div class="typ-123 ">
                                         <select id="privacy" name="type" class="typ-124 border-0">
-                                          <option value="Course" selected disabled hidden>Select</option>
-                                          <option value="Html">Html</option>
-                                          <option value="CSS">CSS</option>
+                                          <option class="w-100" value="Course" selected disabled hidden>Select</option>
+                                          <option class="w-100" value="Html">Html</option>
+                                          <option class="w-100" value="CSS">CSS</option>
                                         </select>
                                     </div>
                                 </div>
                             </div>
-
                         </form>
                     </div>
                 </div>
