@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/main4.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/main9.css">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+</head>
+
+<body class="main-bg position-relative content">
+    <!-- ----------------------------
+      Header 
+---------------------------- -->
+<header class="shadow-sm px-xl-5 px-lg-3 py-md-2">
+    <div class="mycontainer">
+        <nav class="navbar pt-0 pb-lg-0 navbar-expand-lg ">
+            <div class="container-fluid d-flex align-items-center px-0">
+                <span class="toggler d-lg-none pointer myhover">
+                    <i class="fas fa-bars fs-3"></i>
+                </span>
+                <a class="navbar-brand me-0" href="home.html">
+                    <img src="./static/img/footer-logo.png" alt="logo" class="w-75">
+                </a>
+                <div class="d-flex  d-lg-none">
+                    <span>
+                        <i class="fas fa-search fs-3 me-3 pointer myhover search-ic"></i>
+                        <i class="fas fa-cart-plus fs-3 me-3 pointer myhover"></i>
+                        <a
+                            href=""
+                            class="m-0"
+                            type="button"
+                            class="text-decoration-none text-black"
+                            data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop"
+                        >
+                            <i class="bi bi-bell-fill fs-3 pointer myhover text-black"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="collapse navbar-collapse d-none d-lg-flex justify-content-between">
+                    <ul class="navbar-nav justify-content-end ms-xl-5 ms-lg-3 ps-xl-5 ps-3 mt-3 mt-lg-0">
+                        <li class="nav-item small">
+                            <a class="nav-link fw-md text-black px-xl-4 px-lg-2 home" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item small">
+                            <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 courses" href="./courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item small">
+                            <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 about" href="./about-us.html">About</a>
+                        </li>
+                        <li class="nav-item small">
+                            <a class="nav-link fw-normal text-black px-xl-4 px-lg-2 contact" href="./contact-us.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-wrap align-items-center my-3 my-md-0">
+                        <button class="bg-transparent px-2 py-1 me-2 border-0 ms-0 ms-lg-2 my-2 my-lg-0">
+                            <i class="fas fa-search fs-4"></i>
+                        </button>
+                        <div class="d-flex my-2 my-lg-0 align-items-center gap-2">
+                            <div class="d-block nav_icon">
+                                <a
+                                    href="notifications.html"
+                                    class="m-0"
+                                  
+                                >
+                                    <i class="bi bi-bell-fill fs-5" style="color: #636C79;"></i>
+                                    <div class="red-pos d-none d-lg-block"></div>
+                                </a>
+                            </div>
+                            <div class="d-block nav_icon">
+                                <a
+                                    href="addtocart.html"
+                                    class="m-0"
+                                >
+                                    <i class="bi bi-cart3 fs-5" style="color: #636C79;"></i>
+                                </a>
+                            </div>
+                            <a href="./signup.html" class="d-block btn-yellow text-decoration-none">
+                                Register
+                            </a>
+                            <a href="signin.html" class="d-block signin-btn text-decoration-none">
+                                Sign in
+                            </a>
+                            <div class="d-block nav_icon">
+                                <a
+                                    href=""
+                                    class="m-0"
+                                    type="button"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop"
+                                >
+                                    <i class="fa-sharp fa-solid fa-user fs-5" style="color: #636C79;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+    <!-- ----------------------------
+Sidebar
+---------------------------- -->
+    <div class="sidebar myshadow d-lg-none bg-white px-4 py-3">
+        <div class="d-flex justify-content-end myhover pointer fs-3 close mt-2">
+            <i class="fas fa-times fs-2"></i>
+        </div>
+        <ul class="navbar-nav mt-2 pb-2 border-bottom">
+            <li class="nav-item small">
+                <a class="nav-link f4 fw-normal text-black px-lg-4 " href="./signup.html">Register</a>
+            </li>
+            <li class="nav-item small">
+                <a class="nav-link f4 fw-normal text-black px-lg-4 " href="#">Sign in</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav flex-column mt-2">
+            <li class="nav-item small">
+                <a class="nav-link f4 fw-md text-black px-lg-4 home" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item small">
+                <a class="nav-link f4 fw-normal text-black px-lg-4 courses" href="./courses.html">Courses</a>
+            </li>
+            <li class="nav-item small">
+                <a class="nav-link f4 fw-normal text-black px-lg-4 about" href="./about-us.html">About</a>
+            </li>
+            <li class="nav-item small">
+                <a class="nav-link f4 fw-normal text-black px-lg-4 contact" href="./contact-us.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- ----------------------------
+search filter
+---------------------------- -->
+    <section class="bg-white search-popup position-fixed vh-100 top-0 d-lg-none w-100">
+        <div class="d-flex justify-content-between px-3  align-items-center search-filter">
+            <span class="d-inline-block">
+                <i class="fas fa-search text-secondary fs-5 mt-1"></i>
+            </span>
+            <input type="search" placeholder="Search for anything" class="w-100 border-0 py-3 text-secondary px-4">
+            <span class="close-search">
+                <i class="fas fa-times fs-3 myhover pointer text-secondary mt-1"></i>
+            </span>
+        </div>
+    </section>
+    <!-- ----------------------------
+Notifications Div
+---------------------------- -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <img class="w-100" src="./static/img/Group 45840.png" alt="">
+                </div>
+            </div>
+            <div class="main-tp d-flex justify-content-between align-items-end ">
+                <div class="d-flex align-items-end">
+                    <div class="profile position-relative rounded-circle ms-5">
+                        <img class="rounded-circle" src="./static/img/smiling-man-surfing-net-laptop-while-drinking-coffee-bar.png" alt="">
+                        <label for="img-change" class="position-absolute camera-ic">
+                            <i class="fas fa-camera"></i>
+                        </label>
+                        <input type="file" id="img-change" class="d-none">
+                    </div>
+                    <div class="ms-4">
+                        <h5 class="mb-0 ">
+                            Naseeb Designer
+                        </h5>
+                        <p class="mb-0">  i'm Student for UI/UX Designer</p>
+                    </div>
+                </div>
+                <div class="d-block nav_icon">
+                    <a href="notifications.html" class="m-0">
+                        <i class="fas fa-user-edit " style="color: #636C79;"></i>
+                        <div class="red-pos d-none d-lg-block"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+         tabs
+     -->
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="row ">
+                <div class=" ">
+                    <div class="tab me-5 skyblue-bg">
+                        <button class="tablinks" onclick="openCity(event, 'About')" id="defaultOpen">About</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">Tokyo</button>
+                    </div>
+                      
+                    <div id="About" class="tabcontent">
+                        <h3>About</h3>
+                        <p>About is the capital city of England.</p>
+                    </div>
+                      
+                    <div id="Paris" class="tabcontent">
+                        <h3>Paris</h3>
+                        <p>Paris is the capital of France.</p> 
+                    </div>
+                      
+                    <div id="Tokyo" class="tabcontent">
+                        <h3>Tokyo</h3>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
+
+                    <div id="Paris" class="tabcontent">
+                        <h3>Paris</h3>
+                        <p>Paris is the capital of France.</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ----------------------------
+        footer
+    ---------------------------- -->
+    <section class="py-4 py-xl-5 skyblue-bg mt-5">
+        <div class="mycontainer">
+            <div class="row mb-4 mx-0 gx-0">
+                <div class="d-flex align-items-center justify-content-between p-0">
+                    <a href="index.html" class="me-4 d-flex justify-content-md-start justify-content-center">
+                        <img class="img-fluid" src="./static/img/footer-logo.png" alt="">
+                    </a>
+                    <div class="d-md-flex align-items-center gap-4">
+                        <p class="text-start fw-md">Follow Us:</p>
+                        <div class="d-flex flex-wrap  align-items-center gap-4 justify-content-end">
+                            <div class="d-flex justify-content-start ">
+                                <a href="#" class="d-inline-block social">
+                                    <img class="img-fluid" src="./static/img/fb.png" alt="">
+                                </a>
+                                <a href="#" class="d-inline-block social">
+                                    <img class="img-fluid" src="./static/img/insta.png" alt="">
+                                </a>
+                                <a href="#" class="d-inline-block social">
+                                    <img class="img-fluid" src="./static/img/twt.png" alt="">
+                                </a>
+                                <a href="#" class="d-inline-block social">
+                                    <img class="img-fluid" src="./static/img/ytube.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-0 gx-0">
+                <div class="d-none d-md-block col-lg-4 col-md-6">
+                    <p class="d-flex align-items-center text-md-start f6">
+                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
+                        the
+                        visual form of a document or a typeface without relying on meaningful content.
+                    </p>
+                    <p class="mb-0 mt-4 d-flex justify-content-start">Partner with:</p>
+                    <p class="d-flex justify-content-start">
+                        <b>Microsoft</b>
+                    </p>
+                    <div class="d-flex justify-content-start mb-3 mb-md-0">
+                        <img class="img-fluid" src="./img/windows.png" alt="">
+                    </div>
+                </div>
+                <div
+                    class="col-lg-2 col-md-3 col-6 d-flex justify-content-start justify-content-md-center justify-content-lg-end mt-md-0 mt-2">
+                    <div>
+                        <p class="fw-semibold">Quick Links</p>
+                        <ul class="p-0">
+                            <li class="list-unstyled ">
+                                <a class="text-decoration-none" href="#">Home</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <a class="text-decoration-none" href="#">Courses</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <a class="text-decoration-none" href="#">Categories</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <a class="text-decoration-none" href="#">Instructor</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <a class="text-decoration-none" href="#">Courses</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6 d-flex justify-content-start justify-content-md-end  mt-md-0 mt-2">
+                    <div>
+                        <p class="fw-semibold">Top Categories</p>
+                        <ul class="p-0 ">
+                            <li class="list-unstyled">
+                                <a class="text-decoration-none" href="#">Computer Programing</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <a class="text-decoration-none" href="#">Design</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <a class="text-decoration-none" href="#">Marketing</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <a class="text-decoration-none" href="#">Bussiness</a>
+                            </li>
+                            <li class="list-unstyled">
+                                <a class="text-decoration-none" href="#">Finance</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-flex justify-content-lg-center mt-lg-0 mt-2 ps-lg-4">
+                    <div class="">
+                        <p class="text-uppercase text-lg-start text-center fw-semibold">Our Applications</p>
+                        <div class="d-flex align-items-center bg-black py-2 px-3 rounded-3 gap-2">
+                            <img src="./static/img/playstore.png" class="play" alt="">
+                            <div>
+                                <p class="text-white mb-0">Get it on</p>
+                                <h5 class="text-white mb-0 fs-6">Google Play</h5>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center bg-black py-2 px-3 rounded-3 gap-2 mt-3">
+                            <img src="./static/img/Apple_Inc.-White-Logo.wine.png" class="play" alt="">
+                            <div>
+                                <p class="text-white mb-0">Download on the</p>
+                                <h3 class="text-white mb-0 fs-6">App Store</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------------
+Colored footer 
+---------------------------- -->
+    <footer class="p-3" style="background-color: #FFA68B;"></footer>
+    <!-- Bootstrap 5 JS CDN (Optional) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- ------slick-js--- -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./static/js/main.js"></script>
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+</body>
+
+</html>
