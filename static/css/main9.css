@@ -15,7 +15,7 @@
 }
 .ctr a,
 .terms {
-    color: blueviolet;
+    color: blueviolet !important;
 }
 .icn{
     background-color: #DFEAEC;
@@ -72,6 +72,9 @@ p h5{
   }
   .de{
     color: #FFA68B;
+  }
+  .de-bg {
+    background:  #FFA68B;
   }
   .inp{
     border-left:solid 5px #FFA68B ;
@@ -221,14 +224,14 @@ padding-left: 30px;
 .tabcontent {
   float: left;
   padding: 10px 12px;
-  width: 70%;
+  width: 80%;
   border-left: none;
 }
 .per-img {
   max-width: 80px;
 }
 .abt-i i{
-    background-color: #ccc;
+    background-color: #DFEAEC;
     color: #636C79;
     font-size: 20px;
     padding: 20px 25px;
@@ -236,6 +239,15 @@ padding-left: 30px;
 }
 .ins{
   color: #FFA68B;
+}
+.course-det2 i{
+width: 20px;
+}
+.bottom-remove {
+  background-color: #FFF5D9;
+}
+.nav_icon.btn-yellow {
+  background: #FFDC83 !important;
 }
 @media screen and (max-width:576px) {
     .image img{
