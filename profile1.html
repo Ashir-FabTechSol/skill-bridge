@@ -99,11 +99,8 @@
                             </a>
                             <div class="d-block nav_icon">
                                 <a
-                                    href=""
+                                    href="profile1.html"
                                     class="m-0"
-                                    type="button"
-                                    data-bs-toggle="modal"
-                                    data-bs-target="#staticBackdrop"
                                 >
                                     <i class="fa-sharp fa-solid fa-user fs-5" style="color: #636C79;"></i>
                                 </a>
@@ -202,32 +199,540 @@ Notifications Div
     <section class="mt-5">
         <div class="container">
             <div class="row ">
-                <div class=" ">
-                    <div class="tab me-5 skyblue-bg">
-                        <button class="tablinks" onclick="openCity(event, 'About')" id="defaultOpen">About</button>
-                        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-                        <button class="tablinks" onclick="openCity(event, 'Paris')">Tokyo</button>
+                <div class="">
+                    <div class="tab skyblue-bg ">
+                        <button class="tablinks rounded-3" onclick="openCity(event, 'About')" id="defaultOpen">About</button>
+                        <button class="tablinks rounded-3" onclick="openCity(event, 'courses')">My course's</button>
+                        <button class="tablinks rounded-3" onclick="openCity(event, 'not')">Notifications Settings</button>
+                        <button class="tablinks rounded-3" onclick="openCity(event, 'logout')">Log out</button>
                     </div>
                       
                     <div id="About" class="tabcontent">
-                        <h3>About</h3>
-                        <p>About is the capital city of England.</p>
+                        <div class="rounded-3  skyblue-bg">
+                            <div class="d-flex">
+                                <div class="abt-i p-3">
+                                    <a href="">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </a>
+                                </div>
+                                <div class="ms-4 mt-4">
+                                    <h5 class="mb-0">
+                                        Virtual University
+                                    </h5>
+                                    <p class="mb-0">  Less than high school diploma</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="abt-i p-3">
+                                    <a href="">
+                                        <i class="fas fa-briefcase"></i>                                    </a>
+                                </div>
+                                <div class="ms-4 mt-4">
+                                    <h5 class="mb-0">
+                                        About Details
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-evenly mt-3">
+                                <div>
+                                    <p class="mb-0 text-secondary">Role</p>
+                                    <p>Student </p>
+                                </div>
+                                <div>
+                                    <p class="mb-0 text-secondary">Phone Number</p>
+                                    <p>(+62) 217 3328-3353 </p>
+                                </div>
+                                <div>
+                                    <p class="mb-0 text-secondary">Email Adress</p>
+                                    <p>example@gmail.com</p>
+                                </div>
+                                <div>
+                                    <p class="mb-0 text-secondary">Gender</p>
+                                    <p>Male</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rounded-3 skyblue-bg mt-4 p-4">
+                            <div class="row">
+                                <div class="col border-bottom ">
+                                    <h5 class="py-1 mb-0 pb-3 fw-normal">
+                                        Course skills-first learning
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col course-det2 d-flex border-bottom justify-content-between py-2">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <i class="ins far fa-clock"></i>
+                                        <p class="mx-5 mb-0">
+                                            Total learning hours
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col course-det2 d-flex border-bottom justify-content-between py-2">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <i class="ins far fa-file-alt"></i>   
+                                         <p class="mx-5 mb-0">
+                                            Professional Certificates completed
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col course-det2 d-flex border-bottom justify-content-between py-2">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <i class=" ins fab fa-youtube"></i>                                        <p class="mx-5 mb-0">
+                                            Courses completed
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col course-det2 d-flex border-bottom justify-content-between py-2">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <i class="ins far fa-file"></i>                                        <p class="mx-5 mb-0">
+                                            Programming Assignments completed
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                       
-                    <div id="Paris" class="tabcontent">
-                        <h3>Paris</h3>
-                        <p>Paris is the capital of France.</p> 
+                    <div id="courses" class="tabcontent">
+                                        <!-- -----------------------------
+                                            Tabs section
+                                        ---------------------------- -->
+                        <section class="crs-tabs">
+                            <div class="mycontainer">
+                                <div class="row mx-1">
+                                    <ul class="nav nav-tabs tabs-bg border-0 rounded-3 px-3 py-3" id="myTabs" role="tablist">
+                                        <li class="nav-item mx-2" role="presentation">
+                                        <button class="nav-link border-0 text-black active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Ongoing</button>
+                                        </li>
+                                        <li class="nav-item mx-2" role="presentation">
+                                        <button class="nav-link border-0 text-black" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Completed</button>
+                                        </li>
+                                    
+                                    </ul>
+                                    <div class="tab-content mt-2 px-0" id="myTabsContent">
+                                        <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                                            <div class="skyblue-bg py-4 px-4 rounded-3 mt-4">
+                                                <section class=" rel-crs">
+                                                        <div class="row">
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </section>
+                                            
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                                            <div class="skyblue-bg py-4 px-4 rounded-3 mt-4">
+                                                <section class=" rel-crs">
+                                                        <div class="row">
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 my-3">
+                                                                <div class="text-center">
+                                                                    <div class="shadow-sm bg-white px-3 px-sm-3 py-3 rounded-4">
+                                                                        <div class="mb-3">
+                                                                            <img src="./static/img/screen-2.png" alt="" class="img-fluid2">
+                                                                        </div>
+                                                                        <div class="price_tooltip px-3 py-2 rounded-4 bottom-remove">
+                                                                            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                                                                <div>
+                                                                                    <p class="text-start mb-0">Complete Web & Mobile Designer in 2023</p>
+                                                                                </div>
+                                                                                <p class="mb-0">Created by <a href="#" class="terms ">Naseeb Designer</a></p>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="d-flex me-3 ">
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-fill star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star-half star-clr me-2 fs-5"></i>
+                                                                                        <i class="bi bi-star star-clr me-2 fs-5"></i>
+                                                                                    </div>
+                                                                                    <p class="mb-0">(15905)</p>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-end w-100 mt-3 mb-2">
+                                                                                    <div class="py-3 px-4 de-bg d-inline-block rounded-3">Bestseller</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </section>
+                                            
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                       
-                    <div id="Tokyo" class="tabcontent">
-                        <h3>Tokyo</h3>
-                        <p>Tokyo is the capital of Japan.</p>
+                    <div id="not" class="tabcontent">
+                        
                     </div>
 
-                    <div id="Paris" class="tabcontent">
-                        <h3>Paris</h3>
-                        <p>Paris is the capital of France.</p> 
+                    <div id="logout" class="tabcontent">
+                        
                     </div>
                 </div>
             </div>
