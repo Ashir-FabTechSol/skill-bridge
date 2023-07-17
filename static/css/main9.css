@@ -13,7 +13,8 @@
     width: 100%;
     max-width: 100px;
 }
-.ctr a{
+.ctr a,
+.terms {
     color: blueviolet;
 }
 .icn{
@@ -127,8 +128,13 @@ select{
 }
 .card-1 img{
     width: 100%;
-    max-width: 55px;
+    max-width: 75px;
     margin-left: 10px;
+}
+.card-2 img{
+  width: 100%;
+  max-width: 105px;
+  margin-left: 10px;
 }
 .rdf{
     border: #FFA68B solid 1px;
@@ -219,6 +225,8 @@ padding-left: 30px;
   width: 70%;
   border-left: none;
   height: 300px;
+.per-img {
+  max-width: 80px;
 }
 @media screen and (max-width:576px) {
     .image img{
