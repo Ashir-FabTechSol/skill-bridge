@@ -13,7 +13,8 @@
     width: 100%;
     max-width: 100px;
 }
-.ctr a{
+.ctr a,
+.terms {
     color: blueviolet;
 }
 .icn{
@@ -127,8 +128,13 @@ select{
 }
 .card-1 img{
     width: 100%;
-    max-width: 55px;
+    max-width: 75px;
     margin-left: 10px;
+}
+.card-2 img{
+  width: 100%;
+  max-width: 105px;
+  margin-left: 10px;
 }
 .rdf{
     border: #FFA68B solid 1px;
@@ -145,8 +151,8 @@ padding-left: 30px;
   top: 50%;
     transform: translatey(-50%);
   left: 0;
-  height: 19px;
-  width: 19px;
+  height: 20px;
+  width: 20px;
   background-color: #fff;
     border: 1px solid #000;
   border-radius: 50%;
@@ -178,6 +184,9 @@ padding-left: 30px;
 	height: 12px;
 	border-radius: 50%;
 	background: black;
+}
+.per-img {
+  max-width: 80px;
 }
 .main-tp{
   margin-top: -65px;
