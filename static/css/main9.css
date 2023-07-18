@@ -309,6 +309,10 @@ padding-left: 30px;
   color: #FFA68B;
   text-decoration: none;
 }
+.lin{
+  color: #FFA68B;
+  font-weight: bolder;
+}
 @media screen and (max-width:576px) {
     .image img{
         max-width: 200px;
