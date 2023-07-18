@@ -291,9 +291,29 @@ padding-left: 30px;
 	height: 8px;
 	background: black;
 }
-
+.welco{
+  background-color: #FFF5EB;
+}
+.wlc{
+  width: 100%;
+  max-width: 220px;
+  margin:20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.btns button{
+  background-color: #FFDC83;
+}
+.bt a{
+  color: #FFA68B;
+  text-decoration: none;
+}
 @media screen and (max-width:576px) {
     .image img{
         max-width: 200px;
+    }
+    .wlc {
+      max-width: 100%;
     }
 }
