@@ -726,6 +726,26 @@ tr {
     font-family: rubik;
 }
 
+.yellow-bg{
+    background-color: #ffdc83;
+}
+
+.red-bg{
+  background-color: #FFA58A;
+}
+
+.grey-bg{
+    background-color: #C6CFBC;
+}
+
+.img-std{
+    max-width: 50px;
+    object-fit: cover;
+}
+
+.font-12{
+    font-size: 12px;
+}
 @media screen and (max-width:768px) {
     .not-main {
         display: flex;
