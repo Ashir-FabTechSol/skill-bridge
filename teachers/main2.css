@@ -206,6 +206,7 @@ body {
 
 .nt-main {
     display: flex;
+    align-items: flex-end;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 10px;
@@ -242,14 +243,14 @@ body {
     border-radius: 15px;
 }
 
-.r-lower:hover {
+/* .r-lower:hover {
     border: solid #E2DADA 1px;
     border-radius: 20px;
-}
+} */
 
 .nt-r {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .ti {
