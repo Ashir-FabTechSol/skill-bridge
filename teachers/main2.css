@@ -82,7 +82,9 @@ body {
 .d-board {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 10px 20px 30px;
+    margin: 15px 20px 15px 20px;
+    padding: 6px 10px;
+    border-radius: 10px;
 }
 
 .w-icn {
@@ -100,7 +102,9 @@ body {
 .courses {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 10px 20px 30px;
+    margin: 15px 20px 15px 20px;
+    padding: 6px 10px;
+    border-radius: 10px;
 }
 
 .c-icn {
@@ -864,6 +868,9 @@ tr {
     outline: none;
   }
 
+  .active-link {
+    background: #FFA68B
+}
 @media screen and (max-width:768px) {
     .not-main {
         display: flex;
