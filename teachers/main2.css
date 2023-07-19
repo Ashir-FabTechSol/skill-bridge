@@ -772,6 +772,12 @@ tr {
     border: none;
     border-radius: 10px;
 }
+.orng-btn {
+    background: #FFA68B;
+}
+.remove-focus:focus {
+    outline: none;
+}
 @media screen and (max-width:768px) {
     .not-main {
         display: flex;
