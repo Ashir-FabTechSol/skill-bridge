@@ -753,6 +753,25 @@ tr {
 .font-12{
     font-size: 12px;
 }
+.gray-bg{
+    background-color: #ccc;
+  }
+.dgray-bg{
+    background-color: #94918C;
+}
+.brd{
+    border-bottom: #2C2C2C solid 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btns1 button{
+    padding: 10px 10px;
+    width: 100%;
+    max-width: 150px;
+    background-color:#FFA68B ;
+    border: none;
+    border-radius: 10px;
+}
 @media screen and (max-width:768px) {
     .not-main {
         display: flex;

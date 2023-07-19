@@ -65,7 +65,7 @@ p h5{
   }
   .profile{
     max-width: 130px;
-    border:solid #FFA68B 2px;
+    margin: 0 auto;
   }
   .profile img {
     width: 100%;
