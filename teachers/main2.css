@@ -741,6 +741,10 @@ tr {
   background-color: #FFA58A;
 }
 
+.red-clr{
+      color: #FFA58A;
+  }
+
 .grey-bg{
     background-color: #C6CFBC;
 }
@@ -753,6 +757,22 @@ tr {
 .font-12{
     font-size: 12px;
 }
+
+.img-person{
+    max-width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.object-fit-cover{
+    object-fit: cover;
+}
+
+.img-nick{
+    height: 140px;
+    border-radius: 15px;
+}
+
 @media screen and (max-width:768px) {
     .not-main {
         display: flex;
@@ -827,6 +847,12 @@ tr {
     }
     .typ-12 {
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .img-nick{
+        height: 200px;
     }
 }
 
