@@ -85,13 +85,14 @@ body {
     margin: 15px 20px 15px 20px;
     padding: 6px 10px;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .w-icn {
     height: 18px;
 }
 
-.w-des a {
+.w-des h5 {
     color: #fff;
     font-family: Rubik;
     font-weight: 100;
@@ -105,13 +106,14 @@ body {
     margin: 15px 20px 15px 20px;
     padding: 6px 10px;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .c-icn {
     height: 18px;
 }
 
-.c-des a {
+.c-des h5 {
     color: #fff;
     text-decoration: none;
     font-family: Rubik;
@@ -124,6 +126,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto 0 0;
+    color: #fff;
+    text-decoration: none;
 }
 
 .l-out h5 {
@@ -648,7 +652,7 @@ tr {
     margin: 10px;
 }
 
-.lower-left h5 a {
+.lower-left h5 {
     font-size: 15px;
 }
 
