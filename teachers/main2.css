@@ -798,6 +798,14 @@ tr {
     border: none;
     border-radius: 10px;
 }
+
+.orng-btn {
+    background: #FFA68B;
+}
+.remove-focus:focus {
+    outline: none;
+}
+
 .custom-radio {
     user-select: none;
   }
@@ -855,6 +863,7 @@ tr {
   .qe textarea:focus {
     outline: none;
   }
+
 @media screen and (max-width:768px) {
     .not-main {
         display: flex;
