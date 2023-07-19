@@ -362,6 +362,10 @@ body {
 
 .mc-icn {
     display: flex;
+    align-items: center;
+}
+.mc-icn p {
+    margin-bottom: 0;
 }
 
 .mc-icn i {
@@ -370,6 +374,8 @@ body {
 
 .qe {
     margin-left: 20px;
+    max-width: 278px;
+    width: 100%;
 }
 
 .mcqs {
@@ -455,9 +461,10 @@ body {
 
 .mcqs-1 {
     display: flex;
+    align-items: flex-start;
     max-width: 300px;
     margin: 20px 30px;
-
+    width: 100%;
 }
 
 .mc-list {
@@ -472,6 +479,7 @@ body {
 .opt {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .opt-l {
@@ -479,12 +487,30 @@ body {
     align-items: center;
     width: 100%;
     max-width: 180px;
-    margin-top: 10px;
     padding: 5px;
     border: #FFA68B solid 1px;
     border-radius: 10px;
+    position: relative;
 }
-
+.close-q {
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #707070;
+    padding: 4px 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close-q i {
+    color: #fff;
+    font-size: 12px;
+}
+.opt-l-1 p {
+    margin-bottom: 0;
+}
 .opt-i {
     margin-left: 30px;
     margin-top: auto;
@@ -492,7 +518,7 @@ body {
 }
 
 .opt-l-1 {
-    padding: 5px 5px;
+    padding: 5px 8px;
     border: #FFA68B solid 1px;
     font-family: rubik;
     color: #FFA68B;
@@ -659,19 +685,19 @@ tr {
 }
 
 .typ-1 {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-evenly;
-    max-width: 250px;
+    /* max-width: 250px; */
     margin-top: 20px;
     font-size: 5;
     font-weight: 100;
     font-family: rubik;
 }
-
+/* 
 .typ-12 {
     margin-left: 40px;
-}
+} */
 
 .tbl-main {
     padding: 0 20px;
@@ -841,10 +867,10 @@ tr {
         width: calc(100% - 0px);
     }
 
-    .typ-1 {
+    /* .typ-1 {
         max-width: 100%;
         width: calc(100% - 0px);
-    }
+    } */
     .typ-12 {
         margin-left: 0;
     }
@@ -859,14 +885,20 @@ tr {
 @media screen and (max-width:480px) {
     .btnss .btnss-1 {
         width: calc(100% - 10px);
-        justify-content: space-evenly;
-
     }
 
+    .img-nick{
+        height: 200px;
+    }
+}
+@media screen and (max-width:480px) {
+   
+
     .mcqs-1 {
-        display: flex;
-        max-width: 300px;
         margin: 20px 10px;
+    }
+    .btnss {
+        margin-left: 60px;
     }
 
 }
