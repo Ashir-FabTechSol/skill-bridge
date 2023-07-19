@@ -881,6 +881,18 @@ tr {
     max-width: 45px;
   }
 
+  .font-size-input{
+    width: 50px;
+  }
+
+  .outline-none {
+    outline: none !important;
+  }
+
+  .italic{
+    font-style: italic;
+}
+
 @media screen and (max-width:768px) {
     .not-main {
         display: flex;
