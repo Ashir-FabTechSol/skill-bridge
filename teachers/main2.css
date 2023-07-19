@@ -888,6 +888,13 @@ tr {
   .active-link {
     background: #FFA68B
 }
+.btn-g button{
+    background:  #FFA68B;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 @media screen and (max-width:1100px) {
 
 
