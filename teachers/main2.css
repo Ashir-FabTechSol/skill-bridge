@@ -167,7 +167,7 @@ body {
 .r-top-s {
     display: flex;
     align-items: flex-start;
-    /* flex-wrap: wrap; */
+    align-items: center;
 }
 
 .r-top-icn {
@@ -177,7 +177,6 @@ body {
     flex-direction: column;
     align-items: center;
     border-radius: 50%;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: 40px;
 }
