@@ -685,19 +685,19 @@ tr {
 }
 
 .typ-1 {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-evenly;
-    max-width: 250px;
+    /* max-width: 250px; */
     margin-top: 20px;
     font-size: 5;
     font-weight: 100;
     font-family: rubik;
 }
-
+/* 
 .typ-12 {
     margin-left: 40px;
-}
+} */
 
 .tbl-main {
     padding: 0 20px;
@@ -932,10 +932,10 @@ tr {
         width: calc(100% - 0px);
     }
 
-    .typ-1 {
+    /* .typ-1 {
         max-width: 100%;
         width: calc(100% - 0px);
-    }
+    } */
     .typ-12 {
         margin-left: 0;
     }
