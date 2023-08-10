@@ -551,11 +551,21 @@ body {
 }
 
 .opt-l-2 {
-    margin-left: 15px;
+    margin-left: 5px;
     font-family: rubik;
     color: #FFA68B;
 }
-
+.editablechoice{
+    padding: 5px;
+    border: none;
+    background: transparent;
+    width: 90%;
+    color: #FFA68B;
+}
+.editablechoice:focus {
+    border: none; 
+    outline: none; 
+}
 .ad-opt {
     margin-top: 10px;
 }
@@ -569,14 +579,14 @@ body {
 .btnss {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 80px;
-    max-width: 400px;
-    justify-content: space-around;
+    /* margin-left: 80px;
+    max-width: 400px; */
+    justify-content: space-evenly;
 
 }
 
 .btnss .btnss-1 {
-    width: calc(50% - 10px);
+    width: calc(25% - 10px);
 }
 
 .btnss button {
@@ -1039,9 +1049,9 @@ tr {
     .mcqs-1 {
         margin: 20px 10px;
     }
-    .btnss {
+    /* .btnss {
         margin-left: 60px;
-    }
+    } */
 
     .myInput {
        width: 120px;
